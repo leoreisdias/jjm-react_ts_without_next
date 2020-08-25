@@ -152,7 +152,7 @@ function SportDetail() {
                         <footer className="footerSport">
                             <p>
                                 <span className="info">Autor(a):</span> {sports.author} <br /><br />
-                                {sports.source ? 'Fonte: ' + sports.source : 'JJM'}<br />
+                                {sports.source ? 'Fonte: ' + sports.source : 'JJM'}<br /><br />
 
                                 Data da Publicação
                                 <strong>{`${sports.date.substring(8, 10)}/${sports.date.substring(5, 7)}/${sports.date.substring(0, 4)}`}</strong>

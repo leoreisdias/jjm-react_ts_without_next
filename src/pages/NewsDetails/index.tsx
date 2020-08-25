@@ -150,7 +150,7 @@ function NewsDetails() {
                         <footer className="footerNews">
                             <p>
                                 <span className="info">Autor(a):</span> {news.author} <br /><br />
-                                {news.source ? 'Fonte: ' + news.source : 'JJM'}<br />
+                                {news.source ? 'Fonte: ' + news.source : 'JJM'}<br /><br />
 
                                 Data da Publicação
                                 <strong>{`${news.date.substring(8, 10)}/${news.date.substring(5, 7)}/${news.date.substring(0, 4)}`}</strong>
