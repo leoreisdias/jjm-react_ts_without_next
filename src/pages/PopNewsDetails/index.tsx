@@ -69,32 +69,27 @@ function PopNewsDetails() {
     return popnews ? (
         <div id="page-popnews-details" className="container" onLoad={handleBarTitle}>
             <PageHeader title={popnews.title} backLink="/dashboard" >
-                <form id="search-popnewsdetail" >
-                    <div
-                        className="openSidebar">
-                        <p></p>
-                        <p></p>
-                        <FaBars color="white" size={50} onClick={handleSidebar} />
-                    </div>
-                    <p></p>
 
-                </form>
+
+                <FaBars className="openSidebar" color="white" size={50} onClick={handleSidebar} />
+
             </PageHeader>
 
             <MyMenu flag={visible}>
-                <main onLoad={searchNews}>
+                <main onLoad={searchNews} className="popdetailmain">
                     <article className="popnews-detail">
                         <header>
 
                             <img src={popnews.imageURL} alt="Materia Detalhada" /> :
 
-                            <div>
-                                <span>{popnews.summary}</span>
-                            </div>
+
+                            <span className="summary">{popnews.summary}</span>
+
                         </header>
 
                         {popnews.description ? popnews.description.split('##').map(item => {
                             return <p
+                                className="description"
                                 dangerouslySetInnerHTML={{
                                     __html: item
                                 }}
@@ -147,7 +142,7 @@ function PopNewsDetails() {
 
                         {popnews.editorial ?
                             <>
-                                <legend>Editorial | Opinião</legend>
+                                <legend className="legendEditorial">Editorial | Opinião</legend>
                                 {popnews.editorial.split('##').map(item => {
                                     return <p
                                         dangerouslySetInnerHTML={{
@@ -156,15 +151,14 @@ function PopNewsDetails() {
                                         key={item} className="editorial" />
                                 })} </> : ''}
 
-                        <footer>
+                        <footer className="footerPopnews">
                             <p>
-                                <span className="info">Autor(a):</span> {popnews.author} <br /><br /><br /><br />
+                                <span className="info">Autor(a):</span> {popnews.author} <br /><br /><br />
                                 {popnews.source ? 'Fonte: ' + popnews.source : 'JJM'}<br /><br />
-                                Data da Publicação
+                                Data da Publicação <br />
                                 <strong>{`${popnews.date.substring(8, 10)}/${popnews.date.substring(5, 7)}/${popnews.date.substring(0, 4)}`}</strong>
                                 <br />
                             </p>
-                            <span className="source"></span>
 
                         </footer>
                         <div
@@ -190,7 +184,7 @@ function PopNewsDetails() {
                                 onClick={handleMetaUrl}
                             >
                                 <FaWhatsapp size={25} className="iconWpp" color="white" />
-                                    Compartilhe
+                                    Compartilhar
                             </a>
                         </div>
 
@@ -202,7 +196,8 @@ function PopNewsDetails() {
                             data-mobile={true}
                         ></div>
                         <br /><br />
-                        <legend>Matérias Relacionadas</legend>
+                        <legend className="legendPoprelated">Matérias Relacionadas</legend>
+
                         <div className="relatedPopNews">
                             {Object.keys(relatedPopNews).length !== 0 ? relatedPopNews.map((item: PopNews, index: number) => {
                                 return item._id !== id && index < 5 ?
