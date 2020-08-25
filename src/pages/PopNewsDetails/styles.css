@@ -850,7 +850,7 @@
     }
 
     #page-popnews-details .header-content strong{
-        margin-right: 50rem;
+        margin-right: 30rem;
         width: 80rem;
         font-size: 3.2rem;
     }
@@ -858,7 +858,7 @@
     #page-popnews-details .openSidebar{
         align-self: center;
         margin-left: 0rem;
-        margin-right: 2rem;
+        margin-right: 8rem;
     }   
     
     #page-popnews-details .popdetailmain{
