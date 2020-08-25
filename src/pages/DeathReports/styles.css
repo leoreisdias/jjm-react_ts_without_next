@@ -120,7 +120,48 @@
         justify-content: center;
         align-items: center;
         grid-gap: 4rem;
-        padding: 10rem;
+        padding: 2rem 10rem;
+    }
+    
+}
+
+@media(min-width:1440px){
+    #page-reports{
+        max-width: 1000rem;
+        height: 100%;
+    }                                                               
+    
+    #page-reports .header-content strong{
+        margin-right: 70rem;
+        font-size: 3rem;
+        width: 40rem;  
+        padding: 3rem;  
+    }
+
+    #page-reports .JJM {
+        margin-right: 25rem;
+    }
+
+    #page-reports .JJM img{
+        width: 10%;
+    }
+
+    #page-reports .openSidebar{
+        align-self: center;
+        margin-top: 0rem;
+        cursor: pointer;
+        margin-left: 40rem;
+        position: absolute;
+
+    }
+    
+    #page-reports .reportMain{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 4rem;
+        padding: 2rem 10rem;
     }
     
 }
