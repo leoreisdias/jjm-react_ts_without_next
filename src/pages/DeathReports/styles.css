@@ -48,37 +48,39 @@
     background: var(--color-button-lives);
 }
 
-@media(min-width:700px){
+@media(min-width:800px){
     #page-reports{
         max-width: 1000rem;
         height: 100%;
-    }                                                               
+    }
     
-    #page-reports .header-content strong{
-        margin-left: -65rem;
+    #page-reports .JJM img{
+        width: 55%;
     }
 
-    #page-reports .JJM img{
-        margin-right: 40rem;
-        width: 15%;
+    #page-reports .header-content strong{
+        margin-right: 30rem;
+        font-size: 3rem;
+        width: 40rem;
     }
 
     #page-reports .openSidebar{
         align-self: flex-start;
-        margin-top: 0;
-        margin-left: -180rem;
+        margin-top: 4rem;
         cursor: pointer;
-
+        margin-left: 50rem;
+        position: absolute;
     }
     
     #page-reports .reportMain{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-gap: 4rem;
         justify-content: center;
         align-items: center;
-        grid-gap: 4rem;
     }
     
+   
 }
 
 
