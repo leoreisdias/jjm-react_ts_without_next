@@ -66,7 +66,7 @@
 
     #page-reports .openSidebar{
         align-self: flex-start;
-        margin-top: 4rem;
+        margin-top: 0rem;
         cursor: pointer;
         margin-left: 50rem;
         position: absolute;
@@ -84,26 +84,33 @@
 }
 
 
-@media(min-width:1400px){
+@media(min-width:1366px){
     #page-reports{
         max-width: 1000rem;
         height: 100%;
     }                                                               
     
     #page-reports .header-content strong{
-        margin-left: -120rem;
+        margin-right: 60rem;
+        font-size: 3rem;
+        width: 40rem;  
+        padding: 3rem;  
+    }
+
+    #page-reports .JJM {
+        margin-right: 20rem;
     }
 
     #page-reports .JJM img{
-        margin-right: 100rem;
         width: 10%;
     }
 
     #page-reports .openSidebar{
-        align-self: flex-start;
-        margin-top: 0;
-        margin-left: -300rem;
+        align-self: center;
+        margin-top: 0rem;
         cursor: pointer;
+        margin-left: 40rem;
+        position: absolute;
 
     }
     
