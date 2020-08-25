@@ -53,22 +53,18 @@
     display: flex;
     flex-direction: column;
     line-height: 3.2rem;
-    
+    text-align: justify;
 }
 
 #page-news-details .newsdetailmain .news-detail .description  ul{
-    text-align: left;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 
 }
 #page-news-details .newsdetailmain .news-detail .description  li{
-    text-decoration: none;
-    text-align: center;
+    text-align: justify;
     width: 100%;
-    margin-left: 0;
-    margin-bottom: 0;
     list-style-type: none;
 }
 

@@ -54,6 +54,18 @@
     line-height: 3.2rem;
 }
 
+#page-popnews-details .popdetailmain .popnews-detail .description  ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+#page-popnews-details .popdetailmain .popnews-detail .description  li{
+    text-align: justify;
+    width: 100%;
+    list-style-type: none;
+}
+
 #page-popnews-details .popdetailmain .popnews-detail .description h2{
     font: 700 2.2rem Poppins;
     margin-top: 1rem;
