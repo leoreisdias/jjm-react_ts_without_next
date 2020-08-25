@@ -69,30 +69,23 @@ function NewsDetails() {
     return news ? (
         <div id="page-news-details" className="container" onLoad={handleBarTitle}>
             <PageHeader title={news.title} backLink="/dashboard" >
-                <form id="search-popnewsdetail" >
-                    <div
-                        className="openSidebar">
-                        <p></p>
-                        <p></p>
-                        <FaBars color="white" size={50} onClick={handleSidebar} />
-                    </div>
-                    <p></p>
 
-                </form>
+                <FaBars className="openSidebar" color="white" size={50} onClick={handleSidebar} />
+
             </PageHeader>
 
             <MyMenu flag={visible}>
-                <main onLoad={searchNews}>
+                <main onLoad={searchNews} className="newsdetailmain">
                     <article className="news-detail">
                         <header>
                             <img src={news.imageURL} alt="Materia Detalhada" />
-                            <div>
-                                <span>{news.summary}</span>
-                            </div>
+                            <span className="summary">{news.summary}</span>
                         </header>
 
                         {news.description ? news.description.split('##').map(item => {
+                            console.log(news.description)
                             return <p
+                                className="description"
                                 dangerouslySetInnerHTML={{
                                     __html: item
                                 }}
@@ -113,7 +106,7 @@ function NewsDetails() {
                             news.video_url ?
                                 <>
                                     <div className="diviser"></div>
-                                    <div className="video">
+                                    <div className="video_youtube">
                                         <legend>Video/Reportagem</legend>
 
                                         <iframe
@@ -129,7 +122,7 @@ function NewsDetails() {
                             news.facebook_url ?
                                 <>
                                     <div className="diviser"></div>
-                                    <div className="video">
+                                    <div className="video_facebook">
                                         <legend>Video/Reportagem</legend>
 
                                         <p
@@ -145,7 +138,7 @@ function NewsDetails() {
 
                         {news.editorial ?
                             <>
-                                <legend>Editorial | Opinião</legend>
+                                <legend className="legendEditorial">Editorial | Opinião</legend>
                                 {news.editorial.split('##').map(item => {
                                     return <p
                                         dangerouslySetInnerHTML={{
@@ -154,7 +147,7 @@ function NewsDetails() {
                                         key={item} className="editorial" />
                                 })} </> : ''}
 
-                        <footer>
+                        <footer className="footerNews">
                             <p>
                                 <span className="info">Autor(a):</span> {news.author} <br /><br />
                                 {news.source ? 'Fonte: ' + news.source : 'JJM'}<br />
@@ -163,7 +156,6 @@ function NewsDetails() {
                                 <strong>{`${news.date.substring(8, 10)}/${news.date.substring(5, 7)}/${news.date.substring(0, 4)}`}</strong>
                                 <br />
                             </p>
-                            <span className="source"></span>
                         </footer>
                         <div
                             className="shareFacebook"
@@ -200,7 +192,7 @@ function NewsDetails() {
                             data-mobile={true}
                         ></div>
                         <br /><br />
-                        <legend>Matérias Relacionadas</legend>
+                        <legend className="legendNewsrelated">Matérias Relacionadas</legend>
                         <div className="relatedNews">
                             {Object.keys(relatedNews).length !== 0 ? relatedNews.map((item: News, index: number) => {
                                 return item._id !== id && index < 5 ?
