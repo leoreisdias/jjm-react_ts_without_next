@@ -48,6 +48,14 @@
     background: var(--color-button-lives);
 }
 
+#page-reports  .pageButton-group .button-next:disabled,
+#page-reports .pageButton-group .button-prev:disabled,
+#page-reports  .pageButton-group .button-next:disabled:hover,
+#page-reports  .pageButton-group .button-prev:disabled:hover{
+    background: var(--color-text-base);
+    cursor: default;
+}
+
 @media(min-width:800px){
     #page-reports{
         max-width: 1000rem;

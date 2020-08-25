@@ -108,18 +108,13 @@ function SportsPage() {
 
 
     return (
-        <div id="page-sport-dashboard" className="container" >
+        <div id="page-sportdashboard" className="container" >
             <PageHeader
                 title="Tudo de Esporte"
                 backLink="/"
             >
                 <form id="search-news" >
-                    <div
-                        className="openSidebar">
-                        <p></p>
-                        <FaBars color="white" size={50} onClick={handleSidebar} />
-                    </div>
-                    <p></p>
+                    <FaBars color="white" size={50} onClick={handleSidebar} className="openSidebar" />
                     <Input
                         name="subject"
                         label="Assunto/Titulo"
@@ -133,21 +128,13 @@ function SportsPage() {
 
 
             <MyMenu flag={visible}>
-                <div className="dashboardMain">
-                    <div className="sidebarClick" onMouseOver={handleSidebar}>
+                <main className="sportMain">
+                    {Object.keys(sports).length !== 0 ? sports.map((sports: Sport) => {
+                        return <SportsItem key={sports._id} sports={sports} />
+                    }) : <><h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1>
+                            <h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1></>}
+                </main>
 
-                    </div>
-                    <main>
-                        {Object.keys(sports).length !== 0 ? sports.map((sports: Sport) => {
-                            return <SportsItem key={sports._id} sports={sports} />
-                        }) : <><h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1>
-                                <h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1></>}
-
-
-
-                    </main>
-
-                </div>
                 <div className="pageButton-group">
                     <button disabled={page === 1 || flag === true} onClick={prevPage} className="button-prev">
                         <FiArrowLeft size={30} /> Anterior

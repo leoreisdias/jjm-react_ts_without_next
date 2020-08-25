@@ -56,6 +56,16 @@
     background: var(--color-button-lives);
 }
 
+#page-PopNewsPage  .pageButton-group .button-next:disabled,
+#page-PopNewsPage .pageButton-group .button-prev:disabled,
+#page-PopNewsPage  .pageButton-group .button-next:disabled:hover,
+#page-PopNewsPage  .pageButton-group .button-prev:disabled:hover{
+    background: var(--color-text-base);
+    cursor: default;
+}
+
+
+
 @media(min-width:700px){
     #page-PopNewsPage{
         max-width: 100vw;
