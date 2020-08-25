@@ -76,7 +76,7 @@ function Dashboard() {
                         }) : <PulseLoader color={"#8257E5"} size={60} css={"margin: 20rem auto;"} />}
                     </div>
 
-                    <div className="reportArea">
+                    <div className="sportArea">
                         {Object.keys(sports).length !== 0 ? sports.map((sports: Sport) => {
                             return <SportItem key={sports._id} sports={sports} />
                         }) : <PulseLoader color={"#8257E5"} size={60} css={"margin: 20rem auto;"} />}
