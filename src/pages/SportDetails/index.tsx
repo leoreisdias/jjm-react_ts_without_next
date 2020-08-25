@@ -67,32 +67,27 @@ function SportDetail() {
 
 
     return sports ? (
-        <div id="page-news-details" className="container" onLoad={handleBarTitle}>
+        <div id="page-sport-details" className="container" onLoad={handleBarTitle}>
             <PageHeader title={sports.title} backLink="/dashboard" >
-                <form id="search-popnewsdetail" >
-                    <div
-                        className="openSidebar">
-                        <p></p>
-                        <p></p>
-                        <FaBars color="white" size={50} onClick={handleSidebar} />
-                    </div>
-                    <p></p>
 
-                </form>
+                <FaBars color="white" size={50} onClick={handleSidebar} />
+
             </PageHeader>
 
             <MyMenu flag={visible}>
-                <main onLoad={searchNews}>
-                    <article className="news-detail">
+                <main onLoad={searchNews} className="sportdetailmain">
+                    <article className="sport-detail">
                         <header>
                             <img src={sports.imageURL} alt="Materia Detalhada" />
                             <div>
-                                <span>{sports.summary}</span>
+                                <span className="summary">{sports.summary}</span>
                             </div>
                         </header>
 
                         {sports.description ? sports.description.split('##').map(item => {
                             return <p
+                                className="description"
+
                                 dangerouslySetInnerHTML={{
                                     __html: item
                                 }}
@@ -113,7 +108,7 @@ function SportDetail() {
                             sports.video_url ?
                                 <>
                                     <div className="diviser"></div>
-                                    <div className="video">
+                                    <div className="video_youtube">
                                         <legend>Video/Reportagem</legend>
 
                                         <iframe
@@ -129,7 +124,7 @@ function SportDetail() {
                             sports.facebook_url ?
                                 <>
                                     <div className="diviser"></div>
-                                    <div className="video">
+                                    <div className="video_facebook">
                                         <legend>Video/Reportagem</legend>
 
                                         <p
@@ -145,7 +140,7 @@ function SportDetail() {
 
                         {sports.editorial ?
                             <>
-                                <legend>Editorial | Opinião</legend>
+                                <legend className="legendEditorial">Editorial | Opinião</legend>
                                 {sports.editorial.split('##').map(item => {
                                     return <p
                                         dangerouslySetInnerHTML={{
@@ -154,7 +149,7 @@ function SportDetail() {
                                         key={item} className="editorial" />
                                 })} </> : ''}
 
-                        <footer>
+                        <footer className="footerSport">
                             <p>
                                 <span className="info">Autor(a):</span> {sports.author} <br /><br />
                                 {sports.source ? 'Fonte: ' + sports.source : 'JJM'}<br />
@@ -163,7 +158,6 @@ function SportDetail() {
                                 <strong>{`${sports.date.substring(8, 10)}/${sports.date.substring(5, 7)}/${sports.date.substring(0, 4)}`}</strong>
                                 <br />
                             </p>
-                            <span className="source"></span>
                         </footer>
                         <div
                             className="shareFacebook"
@@ -200,8 +194,8 @@ function SportDetail() {
                             data-mobile={true}
                         ></div>
                         <br /><br />
-                        <legend>Matérias Relacionadas</legend>
-                        <div className="relatedNews">
+                        <legend className="legendSportrelated">Matérias Relacionadas</legend>
+                        <div className="relatedSport">
                             {Object.keys(relatedNews).length !== 0 ? relatedNews.map((item: Sport, index: number) => {
                                 return item._id !== id && index < 5 ?
                                     (<div key={item._id} className="relatedItem">
