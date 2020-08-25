@@ -134,13 +134,13 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        margin-right: 26rem;
+        margin-right: 30rem;
     }
 
     .page-header .JJM img{
         width: 10%;
         position: absolute;
-        
+        margin-right: 0;
     }
 
     .page-header .header-content{
@@ -155,11 +155,11 @@
 
     .page-header .header-content strong{
         color: white;
-        font: 700 3.2rem Archivo;
+        font: 700 4.2rem Archivo;
         margin-left:0;
-        width: 30rem;
-        margin-left: -5rem;
-        margin-right: 20rem;
+        width: 50rem;
+        margin-left: -10rem;
+        margin-right: 15rem;
         position: relative; 
     }
 
