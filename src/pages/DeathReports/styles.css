@@ -206,3 +206,44 @@
     }
     
 }
+
+@media(min-width:1680px){
+    #page-reports{
+        max-width: 1000rem;
+        height: 100%;
+    }                                                               
+    
+    #page-reports .header-content strong{
+        margin-right: 115rem;
+        font-size: 3rem;
+        width: 40rem;  
+        padding: 3rem;  
+    }
+
+    #page-reports .JJM {
+        margin-right: 32rem;
+    }
+
+    #page-reports .JJM img{
+        width: 9%;
+    }
+
+    #page-reports .openSidebar{
+        align-self: center;
+        margin-top: 0rem;
+        cursor: pointer;
+        margin-left: 40rem;
+        position: absolute;
+
+    }
+    
+    #page-reports .reportMain{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 4rem;
+        padding: 2rem 10rem;
+    }
+    
+}
