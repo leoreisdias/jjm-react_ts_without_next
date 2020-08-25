@@ -116,6 +116,52 @@
         margin-left: -5rem;
         margin-right: 20rem;
         position: relative; 
-}
+    }
 
 }
+
+@media(min-width:1440px){
+    .page-header{
+        background: var(--color-primary-darker);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+    }
+
+    .page-header .JJM{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 26rem;
+    }
+
+    .page-header .JJM img{
+        width: 10%;
+        position: absolute;
+        
+    }
+
+    .page-header .header-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        padding: 0.6rem;
+    }
+
+    .page-header .header-content strong{
+        color: white;
+        font: 700 3.2rem Archivo;
+        margin-left:0;
+        width: 30rem;
+        margin-left: -5rem;
+        margin-right: 20rem;
+        position: relative; 
+    }
+
+}
+
