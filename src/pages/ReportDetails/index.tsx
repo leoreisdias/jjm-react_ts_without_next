@@ -56,30 +56,23 @@ function ReportDetails() {
     return reports ? (
         <div id="page-report-details" className="container" onLoad={handleBarTitle}>
             <PageHeader title={reports.title} backLink="/deathreports" >
-                <form id="search-popnewsdetail" >
-                    <div
-                        className="openSidebar">
-                        <p></p>
-                        <p></p>
-                        <FaBars color="white" size={50} onClick={handleSidebar} />
-                    </div>
-                    <p></p>
 
-                </form>
+                <FaBars color="white" size={50} onClick={handleSidebar} />
+
             </PageHeader>
 
             <MyMenu flag={visible}>
-                <main>
+                <main className="reportdetailmain">
                     <article className="reports-detail">
                         <header>
                             <img src={bannerFuneraria} alt="Report Detalhado" />
-                            <div>
-                                <span>{reports.name}</span>
-                            </div>
+                            <span className="summary">{reports.name}</span>
                         </header>
 
                         {reports.description ? reports.description.split('##').map(item => {
                             return <p
+                                className="description"
+
                                 dangerouslySetInnerHTML={{
                                     __html: item
                                 }}
@@ -96,7 +89,7 @@ function ReportDetails() {
                         }
                         <div className="diviser"></div>
 
-                        <footer>
+                        <footer className="footerReport">
                             <p>
                                 Fonte: <span className="info">Funerária São Dimas </span> <br /><br /><br /><br />
                                                 Data da Publicação

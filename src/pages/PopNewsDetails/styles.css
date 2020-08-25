@@ -58,7 +58,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
+    display: none;
 }
 #page-popnews-details .popdetailmain .popnews-detail .description  li{
     text-align: justify;
@@ -250,6 +250,8 @@
 #page-popnews-details .popdetailmain .popnews-detail .relatedPopNews .relatedItem a div strong{
     margin-bottom: 2rem;
     font-size: 1.2rem;
+    text-align: left;
+
 }
 
 #page-popnews-details .popdetailmain .popnews-detail .relatedPopNews .relatedItem a div p{

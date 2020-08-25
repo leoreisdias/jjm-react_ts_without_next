@@ -60,6 +60,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    display: none;
 
 }
 #page-news-details .newsdetailmain .news-detail .description  li{
@@ -252,6 +253,7 @@
 #page-news-details .newsdetailmain .news-detail .relatedNews .relatedItem a div strong{
     margin-bottom: 2rem;
     font-size: 1.2rem;
+    text-align: left;
 }
 
 #page-news-details .newsdetailmain .news-detail .relatedNews .relatedItem a div p{
