@@ -3,11 +3,14 @@
     margin-top: 1.2rem;
     display: flex;
     flex-direction: row;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .input-block .iconSearch{
     margin-top: 2rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
  .input-block label{

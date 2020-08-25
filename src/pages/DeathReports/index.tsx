@@ -107,35 +107,23 @@ function DeathReports() {
                 title="Notas de Falecimento"
                 backLink="/dashboard"
             >
-                <form id="search-popnewsdetail" >
-                    <div
-                        className="openSidebar">
-                        <p></p>
-                        <p></p>
-                        <FaBars color="white" size={50} onClick={handleSidebar} />
-                    </div>
-                    <p></p>
+                <FaBars color="white" size={50} onClick={handleSidebar} className="openSidebar" />
 
-                </form>
             </PageHeader>
 
 
 
             <MyMenu flag={visible}>
-                <div className="reportsMain">
-                    <div className="sidebarClick" onMouseOver={handleSidebar}>
 
-                    </div>
-                    <main>
-                        {Object.keys(reports).length !== 0 ? reports.map((report: Report) => {
-                            return <ReportItem key={report._id} report={report} />
-                        }) : <><h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1>
-                                <h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1></>}
+                <main className="reportMain">
+                    {Object.keys(reports).length !== 0 ? reports.map((report: Report) => {
+                        return <ReportItem key={report._id} report={report} />
+                    }) : <><h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1>
+                            <h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1></>}
 
 
-                    </main>
+                </main>
 
-                </div>
 
                 <div className="pageButton-group">
                     <button disabled={page === 1 || flag === true} onClick={prevPage} className="button-prev">

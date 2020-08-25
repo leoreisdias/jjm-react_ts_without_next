@@ -18,13 +18,9 @@ const PageHeader: React.FC<PageHeaderProps> = ({ title, description, backLink, c
             <div className="JJM">
                 <img src={logoImg} alt="" />
             </div>
-
             <div className="header-content">
 
                 <strong>{title}</strong>
-                <br />
-
-                {description && <p>{description}</p>}
                 {children}
             </div>
 

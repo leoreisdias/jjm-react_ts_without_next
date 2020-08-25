@@ -114,12 +114,8 @@ function NewsPage() {
                 backLink="/"
             >
                 <form id="search-news" >
-                    <div
-                        className="openSidebar">
-                        <p></p>
-                        <FaBars color="white" size={50} onClick={handleSidebar} />
-                    </div>
-                    <p></p>
+                    <FaBars className="openSidebar" color="white" size={50} onClick={handleSidebar} />
+
                     <Input
                         name="subject"
                         label="Assunto/Titulo"
@@ -133,21 +129,17 @@ function NewsPage() {
 
 
             <MyMenu flag={visible}>
-                <div className="dashboardMain">
-                    <div className="sidebarClick" onMouseOver={handleSidebar}>
 
-                    </div>
-                    <main>
-                        {Object.keys(news).length !== 0 ? news.map((news: News) => {
-                            return <NewsItem key={news._id} news={news} />
-                        }) : <><h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1>
-                                <h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1></>}
+                <main className="newspageMain">
+                    {Object.keys(news).length !== 0 ? news.map((news: News) => {
+                        return <NewsItem key={news._id} news={news} />
+                    }) : <><h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1>
+                            <h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1></>}
 
 
 
-                    </main>
+                </main>
 
-                </div>
                 <div className="pageButton-group">
                     <button disabled={page === 1 || flag === true} onClick={prevPage} className="button-prev">
                         <FiArrowLeft size={30} /> Anterior
