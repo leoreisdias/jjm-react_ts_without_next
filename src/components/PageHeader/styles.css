@@ -50,14 +50,14 @@
     }
 
     .page-header .JJM img{
-        width: 25%;
+        width: 80%;
         margin-left: 2rem;
     }
 
     .page-header .header-content{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         margin-top: 0rem;
         margin-bottom: 0rem;
@@ -67,8 +67,10 @@
     .page-header .header-content strong{
         color: white;
         font: 700 3.2rem Archivo;
-        margin-left: -52rem;
-        position: absolute;
+        margin-left:0;
+        width: 30rem;
+        margin-right: 20rem;
+        position: relative;
 }
 
 }
