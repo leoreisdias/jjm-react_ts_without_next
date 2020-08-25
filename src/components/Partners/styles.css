@@ -127,7 +127,7 @@ ul .Link1:hover li.ImagePartner_6{
     transform: scale(1.5);
 }
 
-@media(min-width:700px) and (max-width:1200px){
+@media(min-width:700px) and (max-width:1400px){
         .partners-container{    
             margin-top: 5.8rem;
         }
@@ -208,7 +208,7 @@ ul .Link1:hover li.ImagePartner_6{
         
 }
 
-@media(min-width:1200px){
+@media(min-width:1400px){
     .partners-container{    
         margin: 4rem auto;
         width: 60%;
