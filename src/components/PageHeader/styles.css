@@ -82,18 +82,20 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 2rem;
+        padding: 5rem;
     }
 
     .page-header .JJM{
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        margin-right: 26rem;
     }
 
     .page-header .JJM img{
-        width: 15%;
-        margin-right: 40rem;
+        width: 10%;
+        position: absolute;
+        
     }
 
     .page-header .header-content{
@@ -108,9 +110,12 @@
 
     .page-header .header-content strong{
         color: white;
-        font: 700 4.2rem Archivo;
-        margin-left: -100rem;
-        position: absolute;
+        font: 700 3.2rem Archivo;
+        margin-left:0;
+        width: 30rem;
+        margin-left: -5rem;
+        margin-right: 20rem;
+        position: relative; 
 }
 
 }
