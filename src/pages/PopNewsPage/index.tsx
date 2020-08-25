@@ -132,21 +132,17 @@ function PopNewsPage() {
 
 
             <MyMenu flag={visible}>
-                <div className="PopNewsPageMain">
-                    <div className="sidebarClick" onMouseOver={handleSidebar}>
 
-                    </div>
-                    <main>
-                        {Object.keys(popnews).length !== 0 ? popnews.map((popnews: PopNews) => {
-                            return <PopNewsItem key={popnews._id} popnews={popnews} />
-                        }) : <><h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1>
-                                <h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1></>}
+                <main className="PopNewsPageMain">
+                    {Object.keys(popnews).length !== 0 ? popnews.map((popnews: PopNews) => {
+                        return <PopNewsItem key={popnews._id} popnews={popnews} />
+                    }) : <><h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1>
+                            <h1>Nada encontrado... <br /><br />Clique novamente no Buscar para voltar</h1></>}
 
 
 
-                    </main>
+                </main>
 
-                </div>
                 <div className="pageButton-group">
                     <button disabled={page === 1 || flag === true} onClick={prevPage} className="button-prev">
                         <FiArrowLeft size={30} /> Anterior
