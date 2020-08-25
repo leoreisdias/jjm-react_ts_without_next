@@ -50,7 +50,7 @@
     }
 
     .page-header .JJM img{
-        width: 80%;
+        width: 60%;
         margin-left: 2rem;
     }
 
@@ -69,13 +69,13 @@
         font: 700 3.2rem Archivo;
         margin-left:0;
         width: 30rem;
-        margin-right: 20rem;
+        margin-left: -5rem;
         position: relative;
 }
 
 }
 
-@media(min-width:1400px){
+@media(min-width:1366px){
     .page-header{
         background: var(--color-primary-darker);
         display: flex;
