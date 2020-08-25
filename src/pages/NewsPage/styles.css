@@ -72,13 +72,14 @@
     #search-news .openSidebar{
         margin-top: 0rem;
         position: absolute;
-        margin-left: -42rem;
+        margin-left: -48rem;
         margin-right: 0rem;
         cursor: pointer;
     }
 
     #search-news input{
         margin-bottom: -1rem;
+        width: 35rem;
     }
 
     #search-news .input-block{
