@@ -174,16 +174,16 @@
     
 }
 
-@media(min-width:1680px){
+@media(min-width:1600px){
     #page-reports{
         max-width: 1000rem;
         height: 100%;
     }                                                               
     
     #page-reports .header-content strong{
-        margin-right: 90rem;
+        margin-right: 60rem;
         font-size: 3.6rem;
-        width: 40rem;  
+        width: 60rem;  
         padding: 3rem;  
     }
 
@@ -222,7 +222,7 @@
     }                                                               
     
     #page-reports .header-content strong{
-        margin-right: 115rem;
+        margin-right: 80rem;
         font-size: 3.6rem;
         width: 50rem;  
         padding: 3rem;  

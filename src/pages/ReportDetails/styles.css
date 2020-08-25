@@ -541,7 +541,7 @@
 /* MEDIA QUERY 1600 */
 
 
-@media(min-width:1680px){
+@media(min-width:1600px){
     #page-report-details{
         max-width: 100%;
         height: 100%;
@@ -552,9 +552,9 @@
     }
 
     #page-report-details .header-content strong{
-        margin-right: 25rem;
-        width: 80rem;
-        font-size: 3.2rem;
+        margin-right: 35rem;
+        width: 90rem;
+        font-size: 3rem;
     }
     
     #page-report-details .openSidebar{
@@ -740,9 +740,9 @@
     }
 
     #page-report-details .header-content strong{
-        margin-right: 60rem;
+        margin-right: 70rem;
         width: 80rem;
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
     
     #page-report-details .openSidebar{
