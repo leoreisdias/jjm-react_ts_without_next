@@ -19,26 +19,27 @@
     }
 
     #page-dashboard-land .JJM img{
-        width: 40%;
+        width: 60%;
     }
 
     #page-dashboard-land .header-content strong{
-        margin-right: 30rem;
+        margin-right: 25rem;
         font-size: 3rem;
-        width: 40rem;
+        width: 50rem;
     }
 
     #page-dashboard-land .openSidebar{
         align-self: flex-start;
         margin-top: 0rem;
         cursor: pointer;
-        margin-left: 50rem;
+        margin-left: 60rem;
         position: absolute;
     }
 
     #page-dashboard-land .dashboardMain{
         display: grid;
-
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
     }
     
 }
