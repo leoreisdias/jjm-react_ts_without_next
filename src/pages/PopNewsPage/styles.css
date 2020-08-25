@@ -70,12 +70,11 @@
     }
 
     #search-popnews .openSidebar{
-        margin-top: 0rem;
+        margin-top: 1rem;
         position: absolute;
         margin-left: 0rem;
         margin-right: 20rem;
         cursor: pointer;
-        margin-top: 1.6rem;
     }
 
     #search-popnews input{
