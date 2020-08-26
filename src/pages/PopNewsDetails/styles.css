@@ -48,7 +48,7 @@
 
 #page-popnews-details .popdetailmain .popnews-detail .description{
     font: 400 1.6rem Poppins;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     line-height: 3.2rem;
@@ -76,7 +76,7 @@
 
 #page-popnews-details .popdetailmain .popnews-detail .description img{
     max-width: 100%;
-    margin-top: -2rem;
+    margin-top: 1rem;
 }
 
 #page-popnews-details .popdetailmain .popnews-detail .altImages{
@@ -334,7 +334,7 @@
     
     #page-popnews-details .popdetailmain .popnews-detail .description{
         font: 400 1.8rem Poppins;
-        margin-top: 0rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         line-height: 3.4rem;
@@ -351,7 +351,7 @@
     
     #page-popnews-details .popdetailmain .popnews-detail .description img{
         max-width: 65rem;
-        margin: -2rem auto;
+        margin: 1rem auto;
     }
     
     #page-popnews-details .popdetailmain .popnews-detail .altImages{
@@ -630,7 +630,7 @@
     
     #page-popnews-details .popdetailmain .popnews-detail .description{
         font: 400 1.8rem Poppins;
-        margin-top: 0rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         line-height: 3.8rem;
@@ -647,7 +647,7 @@
     
     #page-popnews-details .popdetailmain .popnews-detail .description img{
         max-width: 65rem;
-        margin: -2rem auto;
+        margin: 1rem auto;
     }
     
     #page-popnews-details .popdetailmain .popnews-detail .altImages{
@@ -930,7 +930,7 @@
     
     #page-popnews-details .popdetailmain .popnews-detail .description{
         font: 400 1.8rem Poppins;
-        margin-top: 0rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         line-height: 4rem;
@@ -947,7 +947,7 @@
     
     #page-popnews-details .popdetailmain .popnews-detail .description img{
         max-width: 65rem;
-        margin: -2rem auto;
+        margin: 1rem auto;
     }
     
     #page-popnews-details .popdetailmain .popnews-detail .altImages{
@@ -1231,7 +1231,7 @@
     
     #page-popnews-details .popdetailmain .popnews-detail .description{
         font: 400 1.8rem Poppins;
-        margin-top: 0rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         line-height: 4rem;
@@ -1248,7 +1248,7 @@
     
     #page-popnews-details .popdetailmain .popnews-detail .description img{
         max-width: 80rem;
-        margin: -2rem auto;
+        margin: 1rem auto;
     }
     
     #page-popnews-details .popdetailmain .popnews-detail .altImages{

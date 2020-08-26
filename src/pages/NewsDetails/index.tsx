@@ -86,7 +86,7 @@ function NewsDetails() {
 
                         {news.description ? news.description.split('##').map(item => {
                             console.log(news.description)
-                            return <p
+                            return <span
                                 className="description"
                                 dangerouslySetInnerHTML={{
                                     __html: item

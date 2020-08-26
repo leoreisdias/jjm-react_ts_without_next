@@ -87,7 +87,7 @@ function SportDetail() {
                         </header>
 
                         {sports.description ? sports.description.split('##').map(item => {
-                            return <p
+                            return <span
                                 className="description"
 
                                 dangerouslySetInnerHTML={{

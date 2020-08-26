@@ -90,7 +90,7 @@ function PopNewsDetails() {
                         </header>
 
                         {popnews.description ? popnews.description.split('##').map(item => {
-                            return <p
+                            return <span
                                 className="description"
                                 dangerouslySetInnerHTML={{
                                     __html: item

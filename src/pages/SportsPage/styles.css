@@ -64,6 +64,21 @@
     cursor: default;
 }
 
+.tabelasFutebol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tabelasFutebol .divtabela{
+    margin-top: 4rem;
+}
+
+.tabelasFutebol .divtabela .tabela{
+    font: 700 2.2rem Archivo;
+}
 
 
 @media(min-width:700px){
@@ -106,6 +121,14 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 4rem;
+    }
+
+    .tabelasFutebol{
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 

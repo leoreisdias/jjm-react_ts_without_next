@@ -147,7 +147,52 @@ function SportsPage() {
 
             </MyMenu>
 
+            <div className="tabelasFutebol">
+                <div className="divtabela">
+                    <legend className="tabela">Próximos Jogos do Brasileirão Serie A</legend>
+                    <iframe
+                        id="ftv_iframe"
+                        name="ftv_iframe"
+                        src="https://widgets.futbolenlatv.com/partidos/competition/brasileirao?color=674ea7&culture=pt-BR"
+                        width="360"
+                        height="400"
+                        scrolling="auto"
+                        title="Brasileirão Serie A"
+                    >
+                    </iframe>
+                </div>
 
+                <div className="divtabela">
+
+                    <legend className="tabela">Próximos Jogos do Brasileirão Serie B</legend>
+                    <iframe
+                        id="ftv_iframe"
+                        name="ftv_iframe"
+                        src="https://widgets.futbolenlatv.com/partidos/competition/brasileirao-serie-b?color=674ea7&culture=pt-BR"
+                        width="360"
+                        height="400"
+                        scrolling="auto"
+                        title="Brasileirão Serie B"
+                    >
+
+                    </iframe>
+                </div>
+                <div className="divtabela">
+
+                    <legend className="tabela" >Horários Copa do Brasil</legend>
+                    <iframe
+                        id="ftv_iframe"
+                        name="ftv_iframe"
+                        src="https://widgets.futbolenlatv.com/partidos/competition/copa-do-brasil?color=674ea7&culture=pt-BR"
+                        width="360"
+                        height="400"
+                        scrolling="auto"
+                        title="Copa do Brasil"
+                    >
+                    </iframe>
+                </div>
+
+            </div>
 
 
 

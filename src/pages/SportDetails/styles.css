@@ -49,7 +49,7 @@
 
 #page-sport-details .sportdetailmain .sport-detail .description{
     font: 400 1.6rem Poppins;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     line-height: 3.2rem;
@@ -79,7 +79,7 @@
 
 #page-sport-details .sportdetailmain .sport-detail .description img{
     max-width: 100%;
-    margin-top: -2rem;
+    margin-top: 1rem;
 }
 
 #page-sport-details .sportdetailmain .sport-detail .altImages{
@@ -632,7 +632,7 @@
     
     #page-sport-details .sportdetailmain .sport-detail .description{
         font: 400 1.8rem Poppins;
-        margin-top: 0rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         line-height: 3.8rem;
@@ -649,7 +649,7 @@
     
     #page-sport-details .sportdetailmain .sport-detail .description img{
         max-width: 65rem;
-        margin: -2rem auto;
+        margin: 1rem auto;
     }
     
     #page-sport-details .sportdetailmain .sport-detail .altImages{
@@ -933,7 +933,7 @@
     
     #page-sport-details .sportdetailmain .sport-detail .description{
         font: 400 1.8rem Poppins;
-        margin-top: 0rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         line-height: 4rem;
@@ -950,7 +950,7 @@
     
     #page-sport-details .sportdetailmain .sport-detail .description img{
         max-width: 65rem;
-        margin: -2rem auto;
+        margin: 1rem auto;
     }
     
     #page-sport-details .sportdetailmain .sport-detail .altImages{
@@ -1235,7 +1235,7 @@
     
     #page-sport-details .sportdetailmain .sport-detail .description{
         font: 400 1.8rem Poppins;
-        margin-top: 0rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         line-height: 4rem;
@@ -1252,7 +1252,7 @@
     
     #page-sport-details .sportdetailmain .sport-detail .description img{
         max-width: 80rem;
-        margin: -2rem auto;
+        margin: 1rem auto;
     }
     
     #page-sport-details .sportdetailmain .sport-detail .altImages{

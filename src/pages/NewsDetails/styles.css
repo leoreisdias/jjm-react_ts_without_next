@@ -49,7 +49,7 @@
 
 #page-news-details .newsdetailmain .news-detail .description{
     font: 400 1.6rem Poppins;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     line-height: 3.2rem;
@@ -60,13 +60,16 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    display: none;
-
+    justify-content: flex-start;
+    width: 100vw;
+    text-align: left;
+    margin-left: 10rem;
+    border: 0;
 }
 #page-news-details .newsdetailmain .news-detail .description  li{
-    text-align: justify;
+    text-align: left;
     width: 100%;
-    list-style-type: none;
+    list-style-type: circle;
 }
 
 #page-news-details .newsdetailmain .news-detail .description h2{
@@ -79,7 +82,7 @@
 
 #page-news-details .newsdetailmain .news-detail .description img{
     max-width: 100%;
-    margin-top: -2rem;
+    margin-top: 1rem;
 }
 
 #page-news-details .newsdetailmain .news-detail .altImages{
@@ -336,7 +339,7 @@
     
     #page-news-details .newsdetailmain .news-detail .description{
         font: 400 1.8rem Poppins;
-        margin-top: 0rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         line-height: 3.4rem;
@@ -353,7 +356,7 @@
     
     #page-news-details .newsdetailmain .news-detail .description img{
         max-width: 65rem;
-        margin: -2rem auto;
+        margin: 1rem auto;
     }
     
     #page-news-details .newsdetailmain .news-detail .altImages{
@@ -632,7 +635,7 @@
     
     #page-news-details .newsdetailmain .news-detail .description{
         font: 400 1.8rem Poppins;
-        margin-top: 0rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         line-height: 3.8rem;
@@ -649,7 +652,7 @@
     
     #page-news-details .newsdetailmain .news-detail .description img{
         max-width: 65rem;
-        margin: -2rem auto;
+        margin: 1rem auto;
     }
     
     #page-news-details .newsdetailmain .news-detail .altImages{
@@ -933,10 +936,10 @@
     
     #page-news-details .newsdetailmain .news-detail .description{
         font: 400 1.8rem Poppins;
-        margin-top: 0rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
-        line-height: 4rem;
+        line-height: 4.2rem;
         max-width: 90%;
     }
     
@@ -950,7 +953,7 @@
     
     #page-news-details .newsdetailmain .news-detail .description img{
         max-width: 65rem;
-        margin: -2rem auto;
+        margin: 1rem auto;
     }
     
     #page-news-details .newsdetailmain .news-detail .altImages{
@@ -1235,10 +1238,10 @@
     
     #page-news-details .newsdetailmain .news-detail .description{
         font: 400 1.8rem Poppins;
-        margin-top: 0rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
-        line-height: 4rem;
+        line-height: 4.4rem;
         max-width: 80%;
     }
     
@@ -1252,7 +1255,7 @@
     
     #page-news-details .newsdetailmain .news-detail .description img{
         max-width: 80rem;
-        margin: -2rem auto;
+        margin: 1rem auto;
     }
     
     #page-news-details .newsdetailmain .news-detail .altImages{
