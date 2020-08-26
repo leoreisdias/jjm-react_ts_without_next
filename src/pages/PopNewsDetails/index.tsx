@@ -59,6 +59,11 @@ function PopNewsDetails() {
         link.setAttribute('property', 'og:url');
         link.content = window.location.href;
         document.getElementsByTagName('head')[0].appendChild(link);
+
+        var link2 = document.createElement('meta');
+        link2.setAttribute('property', 'og:image');
+        link2.content = String(popnews?.imageURL);
+        document.getElementsByTagName('head')[0].appendChild(link2);
     }
 
     function handleBarTitle() {
