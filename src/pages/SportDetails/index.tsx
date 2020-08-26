@@ -80,7 +80,9 @@ function SportDetail() {
                         <header>
                             <img src={sports.imageURL} alt="Materia Detalhada" />
                             <div>
-                                <span className="summary">{sports.summary}</span>
+                                <span className="summary" dangerouslySetInnerHTML={{
+                                    __html: sports.summary
+                                }} />
                             </div>
                         </header>
 

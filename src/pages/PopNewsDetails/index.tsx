@@ -83,7 +83,9 @@ function PopNewsDetails() {
                             <img src={popnews.imageURL} alt="Materia Detalhada" /> :
 
 
-                            <span className="summary">{popnews.summary}</span>
+                            <span className="summary" dangerouslySetInnerHTML={{
+                                __html: popnews.summary
+                            }} />
 
                         </header>
 

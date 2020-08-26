@@ -79,7 +79,9 @@ function NewsDetails() {
                     <article className="news-detail">
                         <header>
                             <img src={news.imageURL} alt="Materia Detalhada" />
-                            <span className="summary">{news.summary}</span>
+                            <span className="summary" dangerouslySetInnerHTML={{
+                                __html: news.summary
+                            }} />
                         </header>
 
                         {news.description ? news.description.split('##').map(item => {
