@@ -52,7 +52,7 @@ function WeatherForecast() {
 
                 <div className="infoDay">
                     <div className="subInfo">
-                        <p>
+                        <p lang="pt-br">
                             <strong>{weather?.forecast[0].weekday}</strong>
                             <br />
                             {weather?.date}
@@ -78,7 +78,7 @@ function WeatherForecast() {
                 {weather?.forecast.map((weather, index) => {
                     return index !== 0 && index !== 9 ? (
                         <div key={index} className="eachDay">
-                            <strong>
+                            <strong lang="pt-br">
                                 {weather.weekday}
                                 <br />
                                 {weather.date}
