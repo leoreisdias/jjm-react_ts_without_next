@@ -1,8 +1,6 @@
 import React from 'react'
 import { Header, Modal } from 'semantic-ui-react'
 import WeatherForecast from '../WeatherForecast'
-import { TiWeatherCloudy } from 'react-icons/ti'
-import { DiCoffeescript } from 'react-icons/di'
 import CoffeePrices from '../CoffeePrices'
 
 interface ModalProps {
