@@ -54,20 +54,20 @@ ul .Link1 li {
 }
 
 .partners-container ul .ImagePartner_1{
-    background: url('../../assets/images/Milbr.png') no-repeat;
+    background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/Milbr.png') no-repeat;
     background-position: 50% 50%;
     background-size: 70px 50px;
 }
 
 .partners-container ul .ImagePartner_2{
-    background: url('../../assets/images/Exata.png') no-repeat;
+    background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/TydaMotos.png') no-repeat;
     background-position: 50% 50%;
-    background-size: 70px 70px;
+    background-size: 70px 50px;
 
 }
 
 .partners-container ul .ImagePartner_3{
-    background: url('../../assets/images/Fruti.png') no-repeat;
+    background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/Fruti.png') no-repeat;
     background-position: 50% 50%;
     background-size: 70px 60px;
 
@@ -81,7 +81,7 @@ ul .Link1:hover li.ImagePartner_1{
 
 ul .Link1:hover li.ImagePartner_2{
     background-position: 50% 50%;
-    background-size: 70px 70px;
+    background-size: 70px 50px;
     transform: scale(1.5);
 }
 
@@ -92,19 +92,19 @@ ul .Link1:hover li.ImagePartner_3{
 }
 
 .partners-container ul .ImagePartner_4{
-    background: url('../../assets/images/Funeraria.png') no-repeat;
+    background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/Funeraria.png') no-repeat;
     background-position: 50% 50%;
     background-size: 80px 60px;
 }
 
 .partners-container ul .ImagePartner_5{
-    background: url('../../assets/images/Wizard.png') no-repeat;
+    background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/Wizard.png') no-repeat;
     background-position: 50% 50%;
     background-size: 80px 60px;
 }
 
 .partners-container ul .ImagePartner_6{
-    background: url('../../assets/images/SuperPratico.png') no-repeat;
+    background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/minasmed.png') no-repeat;
     background-position: 50% 50%;
     background-size: 80px 60px;
 }
@@ -138,19 +138,19 @@ ul .Link1:hover li.ImagePartner_6{
         }
         
         ul .Link1 li {
-            height: 150px;
-            width: 150px;
+            height: 170px;
+            width: 170px;
             margin: 20px 20px 0px 20px;
         }
         
         .partners-container ul .ImagePartner_1{
-            background-position: 0% 50%;
+            background-position: 50% 50%;
             background-size: 150px 100px;
         }
         
         .partners-container ul .ImagePartner_2{
             background-position: 50% 50%;
-            background-size: 150px 150px;
+            background-size: 135px 90px;
         }
         
         .partners-container ul .ImagePartner_3{
@@ -159,13 +159,13 @@ ul .Link1:hover li.ImagePartner_6{
         }
         
         ul .Link1:hover li.ImagePartner_1{
-            background-position: 0% 50%;
+            background-position: 50% 50%;
             background-size: 150px 100px;
         }
         
         ul .Link1:hover li.ImagePartner_2{
             background-position: 50% 50%;
-            background-size: 150px 150px;
+            background-size: 135px 90px;
         }
         
         ul .Link1:hover li.ImagePartner_3{
@@ -240,7 +240,7 @@ ul .Link1:hover li.ImagePartner_6{
     
     .partners-container ul .ImagePartner_2{
         background-position: 50% 50%;
-        background-size: 200px 200px;
+        background-size: 180px 100px;
     }
     
     .partners-container ul .ImagePartner_3{
@@ -257,7 +257,7 @@ ul .Link1:hover li.ImagePartner_6{
     
     ul .Link1:hover li.ImagePartner_2{
         background-position: 50% 50%;
-        background-size: 200px 200px;
+        background-size: 180px 100px;
         transform: scale(1.2);
 
     }

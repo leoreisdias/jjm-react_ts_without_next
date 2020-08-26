@@ -13,31 +13,31 @@ function Partners() {
                     </li>
                 </a>
 
-                <a href="https://www.facebook.com/milbrnet" className="Link1" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/thydamotos" className="Link1" target="_blank" rel="noopener noreferrer">
                     <li className="ImagePartner_2">
 
                     </li>
                 </a>
-                <a href="https://www.facebook.com/milbrnet" className="Link1" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/SoveteriaFrutiBom" className="Link1" target="_blank" rel="noopener noreferrer">
 
                     <li className="ImagePartner_3" >
 
                     </li>
                 </a>
 
-                <a href="https://www.facebook.com/milbrnet" className="Link1" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/funerariasaodimas" className="Link1" target="_blank" rel="noopener noreferrer">
                     <li className="ImagePartner_4">
 
                     </li>
                 </a>
 
-                <a href="https://www.facebook.com/milbrnet" className="Link1" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/WIZARDMUZAMBINHO10" className="Link1" target="_blank" rel="noopener noreferrer">
                     <li className="ImagePartner_5">
 
                     </li>
                 </a>
 
-                <a href="https://www.facebook.com/milbrnet" className="Link1" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/minasmedmuzambinho" className="Link1" target="_blank" rel="noopener noreferrer">
 
                     <li className="ImagePartner_6" >
 
