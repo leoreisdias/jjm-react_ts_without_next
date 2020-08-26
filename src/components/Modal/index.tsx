@@ -23,7 +23,7 @@ const ModalExampleBasic: React.FC<ModalProps> = ({ children, flag }) => {
             onClick={() => setOpen(false)}
         >
             <Header icon>
-                {flag ? <TiWeatherCloudy size={100} color="white" /> : <DiCoffeescript size={100} color="white" />}
+                <h1>*Mais dias podem ser vistos na parte inferior da página inicial</h1>
             </Header>
             <Modal.Content>
                 {flag ? <WeatherForecast /> : <CoffeePrices />}
