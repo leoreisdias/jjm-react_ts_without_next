@@ -211,14 +211,14 @@
     font: 700 2.2rem Archivo;
 }
 
-#page-sport-details .sportdetailmain .sport-detail .relatedNews{
+#page-sport-details .sportdetailmain .sport-detail .relatedSport{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a{
+#page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a{
 
     width: 70%;
     margin: 1rem auto;
@@ -236,7 +236,7 @@
     align-items: center;
 }
 
-#page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a img{
+#page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a img{
     max-width: 90%;
     border-radius: 10px;
     object-fit: cover;
@@ -244,19 +244,19 @@
     height: 15rem;
 }
 
-#page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div{
+#page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div strong{
+#page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div strong{
     margin-bottom: 2rem;
     font-size: 1.2rem;
     text-align: left;
 }
 
-#page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div p{
+#page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div p{
     background: var(--color-line-in-white);
     font-size: 1.2rem;
     padding: 0rem 1rem;
@@ -501,7 +501,7 @@
     }
 
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews {
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
@@ -512,7 +512,7 @@
     }
 
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a{
         width: 100%;
         margin: 1rem auto;
         padding: 1.4rem 1rem;
@@ -529,7 +529,7 @@
         align-items: center;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a img{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a img{
         max-width: 80%;
         border-radius: 10px;
         object-fit: cover;
@@ -537,18 +537,18 @@
         height: 15rem;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div strong{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div strong{
         margin-bottom: 2rem;
         font-size: 1.2rem;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div p{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div p{
         background: var(--color-line-in-white);
         font-size: 1.2rem;
         padding: 0rem 1rem;
@@ -800,7 +800,7 @@
     }
 
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews {
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
@@ -811,7 +811,7 @@
     }
 
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a{
         width: 80%;
         margin: 1rem auto;
         padding: 1.4rem 1rem;
@@ -828,7 +828,7 @@
         align-items: center;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a img{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a img{
         max-width: 80%;
         border-radius: 10px;
         object-fit: cover;
@@ -836,18 +836,18 @@
         height: 15rem;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div strong{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div strong{
         margin-bottom: 2rem;
         font-size: 1.4rem;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div p{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div p{
         background: var(--color-line-in-white);
         font-size: 1.2rem;
         padding: 0rem 1rem;
@@ -1101,7 +1101,7 @@
     }
 
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews {
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
@@ -1112,7 +1112,7 @@
     }
 
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a{
         width: 70%;
         margin: 1rem auto;
         padding: 1.4rem 1rem;
@@ -1129,7 +1129,7 @@
         align-items: center;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a img{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a img{
         max-width: 80%;
         border-radius: 10px;
         object-fit: cover;
@@ -1137,18 +1137,18 @@
         height: 15rem;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div strong{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div strong{
         margin-bottom: 2rem;
         font-size: 1.4rem;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div p{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div p{
         background: var(--color-line-in-white);
         font-size: 1.2rem;
         padding: 0rem 1rem;
@@ -1403,7 +1403,7 @@
     }
 
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews {
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
@@ -1414,7 +1414,7 @@
     }
 
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a{
         width: 70%;
         margin: 1rem auto;
         padding: 1.4rem 1rem;
@@ -1431,7 +1431,7 @@
         align-items: center;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a img{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a img{
         max-width: 80%;
         border-radius: 10px;
         object-fit: cover;
@@ -1439,18 +1439,18 @@
         height: 15rem;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div strong{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div strong{
         margin-bottom: 2rem;
         font-size: 1.4rem;
     }
     
-    #page-sport-details .sportdetailmain .sport-detail .relatedNews .relatedItem a div p{
+    #page-sport-details .sportdetailmain .sport-detail .relatedSport .relatedItem a div p{
         background: var(--color-line-in-white);
         font-size: 1.2rem;
         padding: 0rem 1rem;
