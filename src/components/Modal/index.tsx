@@ -2,6 +2,7 @@ import React from 'react'
 import { Header, Modal } from 'semantic-ui-react'
 import WeatherForecast from '../WeatherForecast'
 import CoffeePrices from '../CoffeePrices'
+import { DiCoffeescript } from 'react-icons/di'
 
 interface ModalProps {
     flag?: boolean;
@@ -21,7 +22,10 @@ const ModalExampleBasic: React.FC<ModalProps> = ({ children, flag }) => {
             onClick={() => setOpen(false)}
         >
             <Header icon>
-                <h1>*Mais dias podem ser vistos na parte inferior da página inicial</h1>
+                {flag ?
+                    <h1>*Mais dias podem ser vistos na parte inferior da página inicial</h1> :
+                    <DiCoffeescript size={60} color="white" />
+                }
             </Header>
             <Modal.Content>
                 {flag ? <WeatherForecast /> : <CoffeePrices />}
