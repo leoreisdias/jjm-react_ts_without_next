@@ -267,7 +267,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font: 400 6.2rem Courgette;
+    font: 400 6rem Courgette;
     -webkit-text-stroke-width: 0.0001rem;
     -webkit-text-stroke-color: rgb(235, 236, 236);
 }
