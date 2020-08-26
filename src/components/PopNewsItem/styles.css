@@ -54,6 +54,7 @@ display: flex;
     font-size: 1.4rem;
     line-height: 2.8rem;
     text-align: justify;
+    margin-bottom: auto;
 }
 
 .popnews-item footer{
