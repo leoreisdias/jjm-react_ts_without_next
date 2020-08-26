@@ -370,3 +370,41 @@
             font-size: 2.6rem;
         }
 }
+
+
+
+
+@media(min-width:1600px){
+    .weatherFieldset{
+        width: 50%;
+        margin: 2rem auto;
+    }
+
+    .weatherFieldset .today{
+        padding: 1rem;
+    }
+
+    .weatherFieldset .nextDays{
+        grid-gap: 0.8rem;
+        grid-template-columns: repeat(4,1fr);
+
+}
+
+    .weatherFieldset .today .infoDay .iconWeather strong{
+        font-size: 2.6rem;
+    }
+
+    .weatherFieldset .nextDays .eachDay p strong{
+        font-size: 2rem;
+    }
+
+    .weatherFieldset .nextDays .eachDay strong{
+        font-size: 2.4rem;
+        align-items: center;
+        }
+
+
+        .weatherFieldset .nextDays .eachDay p span p{
+            font-size: 2.6rem;
+        }
+}
