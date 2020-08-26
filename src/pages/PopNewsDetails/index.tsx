@@ -34,6 +34,7 @@ function PopNewsDetails() {
             setPopNews(response.data.popnews);
             setSubjects(response.data.popnews.subjects.join(', '))
         }
+        handleMetaUrl();
         id && loadData()
     }, [id])
 
@@ -177,7 +178,6 @@ function PopNewsDetails() {
                                 rel="noopener noreferrer"
                                 href={`https://www.facebook.com/sharer/sharer.php?u=${window.location.href}&amp;src=sdkpreparse`}
                                 className="fb-xfbml-parse-ignore"
-                                onClick={handleMetaUrl}
                             >
                                 <FaFacebookSquare color="white" size={24} className="icon" />
                                     Compartilhar
@@ -188,7 +188,6 @@ function PopNewsDetails() {
                                 href={`https://api.whatsapp.com/send?text=${popnews.title} - ${window.location.href}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                onClick={handleMetaUrl}
                             >
                                 <FaWhatsapp size={25} className="iconWpp" color="white" />
                                     Compartilhar
