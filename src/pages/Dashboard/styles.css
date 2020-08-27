@@ -29,7 +29,7 @@
     #page-dashboard-land .header-content strong{
         margin-right: 25rem;
         font-size: 3rem;
-        width: 50rem;
+        width: 100%;
     }
 
     #page-dashboard-land .openSidebar{
@@ -137,7 +137,7 @@
     #page-dashboard-land .header-content strong{
         margin-right: 40rem;
         font-size: 3.6rem;
-        width: 60rem;
+        width: 100%;
         padding: 1rem;
     }
 
@@ -249,7 +249,7 @@
     #page-dashboard-land .header-content strong{
         margin-right: 50rem;
         font-size: 3.6rem;
-        width: 60rem;
+        width: 100%;
         padding: 1rem;
     }
 
@@ -359,7 +359,7 @@
     #page-dashboard-land .header-content strong{
         margin-right: 65rem;
         font-size: 3.6rem;
-        width: 60rem;
+        width: 100%;
         padding: 1rem;
     }
 
@@ -470,7 +470,7 @@
     #page-dashboard-land .header-content strong{
         margin-right: 90rem;
         font-size: 3.6rem;
-        width: 60rem;
+        width: 100%;
         padding: 1rem;
     }
 

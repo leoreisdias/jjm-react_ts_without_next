@@ -107,7 +107,7 @@
 
 .sports-item header div strong{
     font: 700 1.8rem Archivo;
-    max-width: 250px;
+    max-width: 100%;
     display: block;
     color: var(--color-text-title);
 }
