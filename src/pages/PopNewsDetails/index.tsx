@@ -54,31 +54,30 @@ function PopNewsDetails() {
         setRelatedPopNews(responseReverse);
     }
 
-    function handleMetaUrl() {
-        var link = document.createElement('meta');
-        link.setAttribute('property', 'og:url');
-        link.content = window.location.href;
-        document.getElementsByTagName('head')[0].appendChild(link);
+    // function handleMetaUrl() {
 
-        var link2 = document.createElement('meta');
-        link2.setAttribute('property', 'og:image');
-        link2.content = String(popnews?.imageURL);
-        document.getElementsByTagName('head')[0].appendChild(link2);
+    //     var link2 = document.createElement('meta');
+    //     link2.setAttribute('property', 'og:image');
+    //     link2.content = String(popnews?.imageURL);
+    //     document.getElementsByTagName('head')[0].appendChild(link2);
 
-        var link3 = document.createElement('meta');
-        link3.setAttribute('property', 'og:title');
-        link3.content = String(popnews?.title);
-        document.getElementsByTagName('head')[0].appendChild(link3);
+    //     var link3 = document.createElement('meta');
+    //     link3.setAttribute('property', 'og:title');
+    //     link3.content = String(popnews?.title);
+    //     document.getElementsByTagName('head')[0].appendChild(link3);
 
-        var link4 = document.createElement('meta');
-        link4.setAttribute('property', 'og:description');
-        link4.content = String(popnews?.summary);
-        document.getElementsByTagName('head')[0].appendChild(link4);
-    }
+    //     var link4 = document.createElement('meta');
+    //     link4.setAttribute('property', 'og:description');
+    //     link4.content = String(popnews?.summary);
+    //     document.getElementsByTagName('head')[0].appendChild(link4);
+    // }
 
     function handleBarTitle() {
         document.title = String(popnews?.title)
-        handleMetaUrl();
+        var link2 = document.createElement('link');
+        link2.setAttribute('rel', 'icon');
+        link2.href = String(popnews?.imageURL);
+        document.getElementsByTagName('head')[0].appendChild(link2);
     }
 
 
@@ -188,6 +187,7 @@ function PopNewsDetails() {
                                 rel="noopener noreferrer"
                                 href={`https://www.facebook.com/sharer/sharer.php?u=${window.location.href}&amp;src=sdkpreparse`}
                                 className="fb-xfbml-parse-ignore"
+                                title="TESTE"
                             >
                                 <FaFacebookSquare color="white" size={24} className="icon" />
                                     Compartilhar
