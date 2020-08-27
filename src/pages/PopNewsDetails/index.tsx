@@ -40,6 +40,7 @@ function PopNewsDetails() {
 
             var link2 = document.createElement('meta');
             link2.setAttribute('property', 'og:image');
+            link2.setAttribute('itemprop', 'image');
             link2.content = String(response.data.popnews?.imageURL);
             document.getElementsByTagName('head')[0].appendChild(link2);
 
