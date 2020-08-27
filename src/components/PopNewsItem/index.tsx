@@ -2,6 +2,7 @@ import React from 'react';
 
 import infoIcon from '../../assets/images/icons/warning.svg'
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 export interface PopNews {
     _id: string;
@@ -52,12 +53,12 @@ const PopNewsItem: React.FC<PopNewsItemProps> = ({ popnews }) => {
                 <strong>{`${day}/${month}/${year}`}</strong>
                 </p>
 
-                <a href={`/popnews-detail/${popnews._id}`}>
+                <Link to={`/popnews-detail/${popnews._id}`}>
                     <button type="button">
                         <img src={infoIcon} alt="Mais informações" />
                         Fique por dentro
                 </button>
-                </a>
+                </Link>
             </footer>
         </article>
     )
