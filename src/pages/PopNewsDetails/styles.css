@@ -54,6 +54,13 @@
     line-height: 3.2rem;
 }
 
+#page-popnews-details .popdetailmain .popnews-detail .description blockquote{
+    font: 400 1.8rem Fenix;
+    margin-top: 1rem;
+    width: 90%;
+    line-height: 2.8rem;
+}
+
 #page-popnews-details .popdetailmain .popnews-detail .description  ul{
     display: flex;
     flex-direction: column;

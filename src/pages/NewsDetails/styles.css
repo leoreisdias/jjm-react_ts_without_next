@@ -56,6 +56,13 @@
     text-align: justify;
 }
 
+#page-news-details .newsdetailmain .news-detail .description blockquote{
+    font: 400 1.8rem Fenix;
+    margin-top: 1rem;
+    width: 90%;
+    line-height: 2.8rem;
+}
+
 #page-news-details .newsdetailmain .news-detail .description  ul{
     display: flex;
     flex-direction: column;
