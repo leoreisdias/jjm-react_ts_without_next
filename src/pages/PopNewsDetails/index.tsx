@@ -41,10 +41,15 @@ function PopNewsDetails() {
             setPopNews(response.data.popnews);
             setSubjects(response.data.popnews.subjects.join(', '))
             setMeta({
-                title: response.data.popnews.title,
-                description: response.data.popnews.summary,
-                canonical: response.data.popnews.imageURL
+                description: null,
+                meta: {
+                    property: {
+                        "og:title": response.data.popnews.title,
+                        "og:image": response.data.popnews.imageURL,
+                        "og:url": window.location.href
+                    },
 
+                }
             })
 
             // let link2 = await document.createElement('meta');
