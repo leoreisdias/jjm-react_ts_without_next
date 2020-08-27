@@ -35,6 +35,7 @@ function PopNewsDetails() {
             setSubjects(response.data.popnews.subjects.join(', '))
         }
         id && loadData()
+
     }, [id])
 
     function handleSidebar() {
@@ -76,9 +77,9 @@ function PopNewsDetails() {
         document.getElementsByTagName('head')[0].appendChild(link4);
     }
 
-    async function handleBarTitle() {
+    function handleBarTitle() {
         document.title = String(popnews?.title)
-        await handleMetaUrl();
+        handleMetaUrl();
     }
 
 
