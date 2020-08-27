@@ -65,6 +65,16 @@ function PopNewsDetails() {
         link2.setAttribute('property', 'og:image');
         link2.content = "https://upload-jjm.s3.sa-east-1.amazonaws.com/21685783f919949d8fe0d2a4d77a4c05-ps5.jpg";
         document.getElementsByTagName('head')[0].appendChild(link2);
+
+        var link3 = document.createElement('meta');
+        link3.setAttribute('property', 'og:title');
+        link3.content = String(popnews?.title);
+        document.getElementsByTagName('head')[0].appendChild(link3);
+
+        var link4 = document.createElement('meta');
+        link4.setAttribute('property', 'og:description');
+        link4.content = String(popnews?.summary);
+        document.getElementsByTagName('head')[0].appendChild(link4);
     }
 
     function handleBarTitle() {
