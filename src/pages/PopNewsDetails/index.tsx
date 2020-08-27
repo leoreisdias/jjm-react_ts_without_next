@@ -34,10 +34,16 @@ function PopNewsDetails() {
             setPopNews(response.data.popnews);
             setSubjects(response.data.popnews.subjects.join(', '))
 
-            // var link = document.createElement('meta');
-            // link.setAttribute('property', 'og:description');
-            // link.content = response.data.popnews.title;
-            // document.getElementsByTagName('head')[0].appendChild(link);
+            let link2 = await document.createElement('meta');
+            link2.setAttribute('property', 'og:title');
+            link2.content = response.data.popnews.title;
+            await document.getElementsByTagName('head')[0].appendChild(link2);
+
+            let link3 = await document.createElement('meta');
+            link3.setAttribute('property', 'og:image');
+            link3.content = response.data.popnews.imageURL;
+            await document.getElementsByTagName('head')[0].appendChild(link3);
+
         }
 
 
