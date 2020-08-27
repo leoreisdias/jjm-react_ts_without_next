@@ -25,6 +25,16 @@ function PopNewsDetails() {
     const { id } = useParams();
 
     useEffect(() => {
+        const loadData = async () => {
+            const response = await api.get('/popnewsdetail', {
+                params: {
+                    id,
+                }
+            });
+            setPopNews(response.data.popnews);
+            setSubjects(response.data.popnews.subjects.join(', '))
+        }
+
         function handleMetaUrl() {
             var link = document.createElement('meta');
             link.setAttribute('property', 'og:url');
@@ -52,21 +62,9 @@ function PopNewsDetails() {
             document.getElementsByTagName('head')[0].appendChild(link5);
         }
 
-        handleMetaUrl();
-    }, [popnews])
-
-    useEffect(() => {
-        const loadData = async () => {
-            const response = await api.get('/popnewsdetail', {
-                params: {
-                    id,
-                }
-            });
-            setPopNews(response.data.popnews);
-            setSubjects(response.data.popnews.subjects.join(', '))
-        }
         id && loadData()
-    }, [id])
+        handleMetaUrl()
+    }, [id, popnews])
 
     function handleSidebar() {
         if (visible === false)
