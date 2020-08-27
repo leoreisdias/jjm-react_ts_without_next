@@ -107,7 +107,7 @@ function PopNewPost() {
                             />
                             <Input
                                 name="subjects"
-                                label="Assuntos *"
+                                label="Palavras Chave *"
                                 value={subjects}
                                 onChange={(e) => { setSubjects(e.target.value) }}
                                 required

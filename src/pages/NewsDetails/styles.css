@@ -225,7 +225,7 @@
 
 #page-news-details .newsdetailmain .news-detail .relatedNews .relatedItem a{
 
-    width: 70%;
+    width: 20rem;
     margin: 1rem auto;
     padding: 1.6rem 1rem;
     border-radius: 10px;
@@ -817,7 +817,7 @@
 
     
     #page-news-details .newsdetailmain .news-detail .relatedNews .relatedItem a{
-        width: 80%;
+        width: 100%;
         margin: 1rem auto;
         padding: 1.4rem 1rem;
         border-radius: 10px;
@@ -1118,7 +1118,7 @@
 
     
     #page-news-details .newsdetailmain .news-detail .relatedNews .relatedItem a{
-        width: 70%;
+        width: 90%;
         margin: 1rem auto;
         padding: 1.4rem 1rem;
         border-radius: 10px;
@@ -1420,7 +1420,7 @@
 
     
     #page-news-details .newsdetailmain .news-detail .relatedNews .relatedItem a{
-        width: 70%;
+        width: 80%;
         margin: 1rem auto;
         padding: 1.4rem 1rem;
         border-radius: 10px;
