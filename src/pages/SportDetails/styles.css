@@ -116,7 +116,8 @@
 
 #page-sport-details .sportdetailmain .sport-detail .video_youtube iframe{
     max-width: 40rem;
-    max-height: 20rem;
+    max-height: 50rem;
+    height: 25rem;
 }
 
 #page-sport-details .sportdetailmain .sport-detail .video_facebook{
@@ -131,8 +132,9 @@
 }
 
 #page-sport-details .sportdetailmain .sport-detail .video_facebook iframe{
-    max-width: 40rem;
-    max-height: 20rem;
+    max-width: 30rem;
+    max-height: 50rem;
+    height: 25rem;
 }
 
 #page-sport-details .sportdetailmain .sport-detail .legendEditorial{
@@ -398,7 +400,7 @@
         max-width: 120rem;
         max-height: 100rem;
         width: 80rem;
-        height: 40rem;
+        height: 50rem;
     }
     
     #page-sport-details .sportdetailmain .sport-detail .video_facebook{
@@ -418,7 +420,7 @@
         max-width: 120rem;
         max-height: 100rem;
         width: 80rem;
-        height: 40rem;
+        height: 50rem;
     }
     
     #page-sport-details .sportdetailmain .sport-detail .legendEditorial{
@@ -696,7 +698,7 @@
         max-width: 120rem;
         max-height: 100rem;
         width: 80rem;
-        height: 40rem;
+        height: 50rem;
     }
     
     #page-sport-details .sportdetailmain .sport-detail .video_facebook{
@@ -716,7 +718,7 @@
         max-width: 120rem;
         max-height: 100rem;
         width: 80rem;
-        height: 40rem;
+        height: 50rem;
     }
     
     #page-sport-details .sportdetailmain .sport-detail .legendEditorial{
@@ -997,7 +999,7 @@
         max-width: 120rem;
         max-height: 100rem;
         width: 80rem;
-        height: 40rem;
+        height: 50rem;
     }
     
     #page-sport-details .sportdetailmain .sport-detail .video_facebook{
@@ -1017,7 +1019,7 @@
         max-width: 120rem;
         max-height: 100rem;
         width: 80rem;
-        height: 40rem;
+        height: 50rem;
     }
     
     #page-sport-details .sportdetailmain .sport-detail .legendEditorial{
@@ -1299,7 +1301,7 @@
         max-width: 120rem;
         max-height: 100rem;
         width: 80rem;
-        height: 40rem;
+        height: 50rem;
     }
     
     #page-sport-details .sportdetailmain .sport-detail .video_facebook{
@@ -1319,7 +1321,7 @@
         max-width: 120rem;
         max-height: 100rem;
         width: 80rem;
-        height: 40rem;
+        height: 50rem;
     }
     
     #page-sport-details .sportdetailmain .sport-detail .legendEditorial{

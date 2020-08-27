@@ -64,7 +64,7 @@ function ReportPost() {
             <PageHeader
                 title="Cadastro de Notas de Falecimento"
                 description="Imagem do Falecido é opcional"
-                backLink="deathreports"
+                backLink="reportsBoard"
             />
 
             {flag ? <PacmanLoader color={"#8257E5"} size={60} css={"margin: 20rem auto;"} /> :

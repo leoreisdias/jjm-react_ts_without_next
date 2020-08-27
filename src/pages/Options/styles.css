@@ -3,6 +3,9 @@
     height: 100vh;
 }
 
+#page-options .openSidebar{
+    cursor: pointer;
+}
 
 #page-options .optionsMain{
     display: flex;

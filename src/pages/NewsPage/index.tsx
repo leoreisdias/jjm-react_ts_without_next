@@ -111,7 +111,7 @@ function NewsPage() {
         <div id="page-dashboard" className="container" >
             <PageHeader
                 title="Últimas Notícias"
-                backLink="/"
+                backLink="newsBoard"
             >
                 <form id="search-news" >
                     <FaBars className="openSidebar" color="white" size={50} onClick={handleSidebar} />

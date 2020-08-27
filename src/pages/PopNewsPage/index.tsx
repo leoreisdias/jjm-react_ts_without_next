@@ -110,7 +110,7 @@ function PopNewsPage() {
         <div id="page-PopNewsPage" className="container">
             <PageHeader
                 title="Mundo POP"
-                backLink="/dashboard"
+                backLink="popBoard"
             >
                 <form id="search-popnews" >
                     <div

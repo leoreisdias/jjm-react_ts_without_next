@@ -14,7 +14,7 @@ interface PageHeaderProps {
 const PageHeader: React.FC<PageHeaderProps> = ({ title, description, backLink, children }) => {
 
     return (
-        <header className="page-header" >
+        <header className="page-header" id={backLink}>
             <div className="JJM">
                 <img src={logoImg} alt="" />
             </div>

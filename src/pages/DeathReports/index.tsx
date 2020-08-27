@@ -105,7 +105,7 @@ function DeathReports() {
         <div id="page-reports" className="container">
             <PageHeader
                 title="Notas de Falecimento"
-                backLink="/dashboard"
+                backLink="reportsBoard"
             >
                 <FaBars color="white" size={50} onClick={handleSidebar} className="openSidebar" />
 

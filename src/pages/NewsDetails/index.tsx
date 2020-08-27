@@ -68,7 +68,7 @@ function NewsDetails() {
 
     return news ? (
         <div id="page-news-details" className="container" onLoad={handleBarTitle}>
-            <PageHeader title={news.title} backLink="/dashboard" >
+            <PageHeader title={news.title} backLink="newsBoard" >
 
                 <FaBars className="openSidebar" color="white" size={50} onClick={handleSidebar} />
 

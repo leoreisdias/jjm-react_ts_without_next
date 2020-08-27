@@ -55,7 +55,7 @@ function ReportDetails() {
 
     return reports ? (
         <div id="page-report-details" className="container" onLoad={handleBarTitle}>
-            <PageHeader title={reports.title} backLink="/deathreports" >
+            <PageHeader title={reports.title} backLink="reportsBoard" >
 
                 <FaBars color="white" size={50} onClick={handleSidebar} />
 

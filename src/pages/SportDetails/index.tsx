@@ -68,7 +68,7 @@ function SportDetail() {
 
     return sports ? (
         <div id="page-sport-details" className="container" onLoad={handleBarTitle}>
-            <PageHeader title={sports.title} backLink="/dashboard" >
+            <PageHeader title={sports.title} backLink="sportBoard" >
 
                 <FaBars color="white" size={50} onClick={handleSidebar} className="openSidebar" />
 

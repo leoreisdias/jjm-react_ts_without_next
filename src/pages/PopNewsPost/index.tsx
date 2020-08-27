@@ -89,7 +89,7 @@ function PopNewPost() {
             <PageHeader
                 title="Cadastre uma nova notícia"
                 description="Separe o assunto entre virgulas"
-                backLink="dashboard"
+                backLink="popBoard"
             />
             {flag ? <PacmanLoader color={"#8257E5"} size={60} css={"margin: 20rem auto;"} /> :
 

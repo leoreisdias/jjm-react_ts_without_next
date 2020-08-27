@@ -33,31 +33,12 @@ function PopNewsDetails() {
             });
             setPopNews(response.data.popnews);
             setSubjects(response.data.popnews.subjects.join(', '))
-            var link = document.createElement('meta');
-            link.setAttribute('property', 'og:url');
-            link.content = window.location.href;
-            document.getElementsByTagName('head')[0].appendChild(link);
-
-            var link2 = document.createElement('meta');
-            link2.setAttribute('property', 'og:image');
-            link2.setAttribute('itemprop', 'image');
-            link2.content = String(response.data.popnews?.imageURL);
-            document.getElementsByTagName('head')[0].appendChild(link2);
 
             var link3 = document.createElement('meta');
             link3.setAttribute('property', 'og:title');
             link3.content = String(response.data.popnews?.title);
             document.getElementsByTagName('head')[0].appendChild(link3);
 
-            var link4 = document.createElement('meta');
-            link4.setAttribute('property', 'og:description');
-            link4.content = "Visite e veja";
-            document.getElementsByTagName('head')[0].appendChild(link4);
-
-            var link5 = document.createElement('meta');
-            link4.setAttribute('property', 'og:image:secure_url');
-            link4.content = String(response.data.popnews?.imageURL);
-            document.getElementsByTagName('head')[0].appendChild(link5);
         }
 
 
@@ -92,7 +73,7 @@ function PopNewsDetails() {
 
     return popnews ? (
         <div id="page-popnews-details" className="container" onLoad={handleBarTitle}>
-            <PageHeader title={popnews.title} backLink="/dashboard" >
+            <PageHeader title={popnews.title} backLink="popBoard" >
 
 
                 <FaBars className="openSidebar" color="white" size={50} onClick={handleSidebar} />

@@ -111,7 +111,7 @@ function SportsPage() {
         <div id="page-sportdashboard" className="container" >
             <PageHeader
                 title="Tudo de Esporte"
-                backLink="/"
+                backLink="sportBoard"
             >
                 <form id="search-news" >
                     <FaBars color="white" size={50} onClick={handleSidebar} className="openSidebar" />

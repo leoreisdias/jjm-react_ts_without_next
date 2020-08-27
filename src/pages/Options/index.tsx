@@ -29,7 +29,7 @@ function Options() {
         <div id="page-options" className="container">
             <PageHeader
                 title={`Olá, ${localStorage.getItem('name')}`}
-                backLink="/dashboard"
+                backLink="optionBoard"
             >
                 <FaBars className="openSidebar" color="white" size={50} onClick={handleSidebar} />
 

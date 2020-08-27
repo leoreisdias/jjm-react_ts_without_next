@@ -53,7 +53,7 @@ function Dashboard() {
         <div id="page-dashboard-land" className="container" >
             <PageHeader
                 title="JJM | Na pura verdade é isso"
-                backLink="/"
+                backLink="dashboard"
             >
 
                 <FaBars color="white" size={50} onClick={handleSidebar} className="openSidebar" />

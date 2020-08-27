@@ -90,7 +90,7 @@ function NewPost() {
             <PageHeader
                 title="Cadastrar notícia"
                 description="Separe o assunto entre virgulas"
-                backLink="dashboard"
+                backLink="newsBoard"
             />
             {flag ? <PacmanLoader color={"#8257E5"} size={60} css={"margin: 20rem auto;"} /> :
                 <main>
