@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom'
 import DotLoader from 'react-spinners/DotLoader'
+import DocumentMeta from 'react-document-meta';
+
 
 import { FaBars, FaFacebookSquare, FaWhatsapp } from 'react-icons/fa'
 
@@ -23,6 +25,11 @@ function PopNewsDetails() {
     const [relatedPopNews, setRelatedPopNews] = useState([]);
     const [subjects, setSubjects] = useState('');
     const { id } = useParams();
+    const [meta, setMeta] = useState<any>({
+        title: 'Some Meta Title',
+        description: 'I am a description, and I can create multiple tags',
+        canonical: 'http://example.com/path/to/page',
+    })
 
     useEffect(() => {
         const loadData = async () => {
@@ -33,6 +40,12 @@ function PopNewsDetails() {
             });
             setPopNews(response.data.popnews);
             setSubjects(response.data.popnews.subjects.join(', '))
+            setMeta({
+                title: response.data.popnews.title,
+                description: response.data.popnews.summary,
+                canonical: response.data.popnews.imageURL
+
+            })
 
             // let link2 = await document.createElement('meta');
             // link2.setAttribute('property', 'og:title');
@@ -78,6 +91,8 @@ function PopNewsDetails() {
 
     return popnews ? (
         <div id="page-popnews-details" className="container" onLoad={handleBarTitle}>
+            <DocumentMeta {...meta} />
+
             <PageHeader title={popnews.title} backLink="popBoard" >
 
 
