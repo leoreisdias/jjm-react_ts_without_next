@@ -65,12 +65,17 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    display: none;
+    justify-content: flex-start;
+    width: 100vw;
+    text-align: left;
+    margin-left:10rem;
+    border: 0;
 }
 #page-popnews-details .popdetailmain .popnews-detail .description  li{
-    text-align: justify;
-    width: 100%;
-    list-style-type: none;
+    text-align: left;
+    width: 100vw;
+    list-style-type: circle;
+    margin-left: 10rem;
 }
 
 #page-popnews-details .popdetailmain .popnews-detail .description h2{
