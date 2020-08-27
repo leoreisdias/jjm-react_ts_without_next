@@ -25,6 +25,37 @@ function PopNewsDetails() {
     const { id } = useParams();
 
     useEffect(() => {
+        function handleMetaUrl() {
+            var link = document.createElement('meta');
+            link.setAttribute('property', 'og:url');
+            link.content = window.location.href;
+            document.getElementsByTagName('head')[0].appendChild(link);
+
+            var link2 = document.createElement('meta');
+            link2.setAttribute('property', 'og:image');
+            link2.content = String(popnews?.imageURL);
+            document.getElementsByTagName('head')[0].appendChild(link2);
+
+            var link3 = document.createElement('meta');
+            link3.setAttribute('property', 'og:title');
+            link3.content = String(popnews?.title);
+            document.getElementsByTagName('head')[0].appendChild(link3);
+
+            var link4 = document.createElement('meta');
+            link4.setAttribute('property', 'og:description');
+            link4.content = "Visite e veja";
+            document.getElementsByTagName('head')[0].appendChild(link4);
+
+            var link5 = document.createElement('meta');
+            link4.setAttribute('property', 'og:image:secure_url');
+            link4.content = String(popnews?.imageURL);
+            document.getElementsByTagName('head')[0].appendChild(link5);
+        }
+
+        handleMetaUrl();
+    }, [popnews])
+
+    useEffect(() => {
         const loadData = async () => {
             const response = await api.get('/popnewsdetail', {
                 params: {
@@ -54,30 +85,10 @@ function PopNewsDetails() {
         setRelatedPopNews(responseReverse);
     }
 
-    // function handleMetaUrl() {
 
-    //     var link2 = document.createElement('meta');
-    //     link2.setAttribute('property', 'og:image');
-    //     link2.content = String(popnews?.imageURL);
-    //     document.getElementsByTagName('head')[0].appendChild(link2);
-
-    //     var link3 = document.createElement('meta');
-    //     link3.setAttribute('property', 'og:title');
-    //     link3.content = String(popnews?.title);
-    //     document.getElementsByTagName('head')[0].appendChild(link3);
-
-    //     var link4 = document.createElement('meta');
-    //     link4.setAttribute('property', 'og:description');
-    //     link4.content = String(popnews?.summary);
-    //     document.getElementsByTagName('head')[0].appendChild(link4);
-    // }
 
     function handleBarTitle() {
         document.title = String(popnews?.title)
-        var link2 = document.createElement('link');
-        link2.setAttribute('rel', 'icon');
-        link2.href = String(popnews?.imageURL);
-        document.getElementsByTagName('head')[0].appendChild(link2);
     }
 
 
