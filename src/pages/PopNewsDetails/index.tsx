@@ -34,10 +34,10 @@ function PopNewsDetails() {
             setPopNews(response.data.popnews);
             setSubjects(response.data.popnews.subjects.join(', '))
 
-            var link = document.createElement('meta');
-            link.setAttribute('property', 'og:description');
-            link.content = response.data.popnews.title;
-            document.getElementsByTagName('head')[0].appendChild(link);
+            // var link = document.createElement('meta');
+            // link.setAttribute('property', 'og:description');
+            // link.content = response.data.popnews.title;
+            // document.getElementsByTagName('head')[0].appendChild(link);
         }
 
 
