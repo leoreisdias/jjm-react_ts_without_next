@@ -137,7 +137,7 @@
 @media(min-width:700px){
     
     .market{
-        width: 50%;
+        width: 80%;
     }
 
     .information .textPartner p{
@@ -167,7 +167,7 @@
         height: 20rem;
         background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/Milbr.png') no-repeat;
         background-position: 50% 50%;
-        background-size: 230px 140px;
+        background-size: 220px 130px;
         margin: 0;
         margin-bottom: 0;
         padding: 0;
