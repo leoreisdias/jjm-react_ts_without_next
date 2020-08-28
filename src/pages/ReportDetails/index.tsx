@@ -57,7 +57,7 @@ function ReportDetails() {
         <div id="page-report-details" className="container" onLoad={handleBarTitle}>
             <PageHeader title={reports.title} backLink="reportsBoard" >
 
-                <FaBars color="white" size={50} onClick={handleSidebar} />
+                <FaBars color="white" size={50} onClick={handleSidebar} className="openSidebar" />
 
             </PageHeader>
 
