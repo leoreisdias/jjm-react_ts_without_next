@@ -34,7 +34,7 @@ const PartnersText: React.FC<PartnersTextProps> = ({ partner, children }) => {
                         </> : ''}
 
                         {partner === "thyda" ? <>
-                            <strong>Endereço: </strong> Avenida  Rebeca, 318 <br /><br />
+                            <strong>Endereço: </strong> Avenida  Rebeca, 318 <br />
                             <strong>Thyda Motos</strong> tem: <br />
                             <ul>
                                 <li>Peças</li>
@@ -62,7 +62,6 @@ const PartnersText: React.FC<PartnersTextProps> = ({ partner, children }) => {
                                 <li>Paleta Mexicana</li>
                                 <li>Sorvete Expresso</li>
                             </ul>
-                            <br />
                             Tudo isso na melhor sorveteria da cidade!
                             </> : ''}
 
@@ -103,7 +102,6 @@ const PartnersText: React.FC<PartnersTextProps> = ({ partner, children }) => {
                                 <li>Colchão Caixa de Ovo</li>
                                 <li>Travesseiro Suave Encosto, para repouso das pernas também, ajudando na circulação</li>
                             </ul>
-                            <br />
                             <strong>Isso e muito mais com entrega grátis!</strong> <br />
                             <strong>Endereço: </strong> Rua Aristides Coimbra, 116 - Descendo para o hospital <br />
                             <strong>Telefone: </strong>(35) 3571-5744 <br />
