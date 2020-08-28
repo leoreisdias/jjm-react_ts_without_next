@@ -93,7 +93,6 @@ function Dashboard() {
             <br />
             <CoffeePrices />
 
-
             <Partners />
 
             <PageFooter />

@@ -37,7 +37,6 @@ ul {
 
 ul .Link1{
     margin-top: 2rem;
-
 }
 
 ul .Link1 li {
@@ -56,38 +55,38 @@ ul .Link1 li {
 .partners-container ul .ImagePartner_1{
     background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/Milbr.png') no-repeat;
     background-position: 50% 50%;
-    background-size: 70px 50px;
+    background-size: 70px 45px;
 }
 
 .partners-container ul .ImagePartner_2{
     background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/TydaMotos.png') no-repeat;
     background-position: 50% 50%;
-    background-size: 70px 50px;
+    background-size: 70px 45px;
 
 }
 
 .partners-container ul .ImagePartner_3{
     background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/Fruti.png') no-repeat;
     background-position: 50% 50%;
-    background-size: 70px 60px;
+    background-size: 70px 55px;
 
 }
 
 ul .Link1:hover li.ImagePartner_1{
     background-position: 50% 50%;
-    background-size: 70px 50px;
+    background-size: 70px 45px;
     transform: scale(1.5);
 }
 
 ul .Link1:hover li.ImagePartner_2{
     background-position: 50% 50%;
-    background-size: 70px 50px;
+    background-size: 70px 45px;
     transform: scale(1.5);
 }
 
 ul .Link1:hover li.ImagePartner_3{
     background-position: 50% 50%;
-    background-size: 70px 60px;
+    background-size: 70px 55px;
     transform: scale(1.5);
 }
 
@@ -145,32 +144,32 @@ ul .Link1:hover li.ImagePartner_6{
         
         .partners-container ul .ImagePartner_1{
             background-position: 50% 50%;
-            background-size: 150px 100px;
+            background-size: 160px 100px;
         }
         
         .partners-container ul .ImagePartner_2{
             background-position: 50% 50%;
-            background-size: 135px 90px;
+            background-size: 150px 90px;
         }
         
         .partners-container ul .ImagePartner_3{
             background-position: 50% 50%;
-            background-size: 140px 100px;
+            background-size: 150px 110px;
         }
         
         ul .Link1:hover li.ImagePartner_1{
             background-position: 50% 50%;
-            background-size: 150px 100px;
+            background-size: 160px 100px;
         }
         
         ul .Link1:hover li.ImagePartner_2{
             background-position: 50% 50%;
-            background-size: 135px 90px;
+            background-size: 150px 90px;
         }
         
         ul .Link1:hover li.ImagePartner_3{
             background-position: 50% 50%;
-            background-size: 140px 100px;
+            background-size: 150px 110px;
         }
 
         .partners-container ul .ImagePartner_4{
@@ -187,7 +186,7 @@ ul .Link1:hover li.ImagePartner_6{
         
         .partners-container ul .ImagePartner_6{
             background-position: 50% 50%;
-            background-size: 150px 100px;
+            background-size: 180px 150px;
     
         }
         
@@ -203,7 +202,7 @@ ul .Link1:hover li.ImagePartner_6{
         
         ul .Link1:hover li.ImagePartner_6{
             background-position: 50% 50%;
-            background-size: 150px 100px;
+            background-size: 180px 150px;
         }
         
 }

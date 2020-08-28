@@ -1,48 +1,64 @@
 import React from 'react';
 
 import './styles.css'
+import ModalExampleContentImage from '../Modal';
+
 
 function Partners() {
     return (
         <fieldset className="partners-container">
             <legend>Parceiros</legend>
             <ul>
-                <a href="https://www.facebook.com/milbrnet" className="Link1" target="_blank" rel="noopener noreferrer">
-                    <li className="ImagePartner_1">
+                <ModalExampleContentImage flag="milbr">
+                    <span className="Link1" >
+                        <li className="ImagePartner_1">
 
-                    </li>
-                </a>
+                        </li>
+                    </span>
+                </ModalExampleContentImage>
 
-                <a href="https://www.facebook.com/thydamotos" className="Link1" target="_blank" rel="noopener noreferrer">
-                    <li className="ImagePartner_2">
+                <ModalExampleContentImage flag="thyda">
+                    <span className="Link1" >
+                        <li className="ImagePartner_2">
 
-                    </li>
-                </a>
-                <a href="https://www.facebook.com/SoveteriaFrutiBom" className="Link1" target="_blank" rel="noopener noreferrer">
+                        </li>
+                    </span>
+                </ModalExampleContentImage>
 
-                    <li className="ImagePartner_3" >
+                <ModalExampleContentImage flag="frutibom">
+                    <span className="Link1">
 
-                    </li>
-                </a>
+                        <li className="ImagePartner_3" >
 
-                <a href="https://www.facebook.com/funerariasaodimas" className="Link1" target="_blank" rel="noopener noreferrer">
-                    <li className="ImagePartner_4">
+                        </li>
+                    </span>
+                </ModalExampleContentImage>
 
-                    </li>
-                </a>
+                <ModalExampleContentImage flag="funeraria">
+                    <span className="Link1" >
+                        <li className="ImagePartner_4">
 
-                <a href="https://www.facebook.com/WIZARDMUZAMBINHO10" className="Link1" target="_blank" rel="noopener noreferrer">
-                    <li className="ImagePartner_5">
+                        </li>
+                    </span>
+                </ModalExampleContentImage>
 
-                    </li>
-                </a>
+                <ModalExampleContentImage flag="wizard">
+                    <span className="Link1" >
+                        <li className="ImagePartner_5">
 
-                <a href="https://www.facebook.com/minasmedmuzambinho" className="Link1" target="_blank" rel="noopener noreferrer">
+                        </li>
+                    </span>
+                </ModalExampleContentImage>
 
-                    <li className="ImagePartner_6" >
 
-                    </li>
-                </a>
+                <ModalExampleContentImage flag="minasmed">
+                    <span className="Link1">
+
+                        <li className="ImagePartner_6" >
+
+                        </li>
+                    </span>
+                </ModalExampleContentImage>
 
 
             </ul>

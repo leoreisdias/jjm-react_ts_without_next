@@ -3,9 +3,10 @@ import { Header, Modal } from 'semantic-ui-react'
 import WeatherForecast from '../WeatherForecast'
 import CoffeePrices from '../CoffeePrices'
 import { DiCoffeescript } from 'react-icons/di'
+import PartnersText from '../PartnersText'
 
 interface ModalProps {
-    flag?: boolean;
+    flag?: string;
 }
 
 const ModalExampleBasic: React.FC<ModalProps> = ({ children, flag }) => {
@@ -22,13 +23,15 @@ const ModalExampleBasic: React.FC<ModalProps> = ({ children, flag }) => {
             onClick={() => setOpen(false)}
         >
             <Header icon>
-                {flag ?
-                    <h1>*Mais dias podem ser vistos na parte inferior da página inicial</h1> :
-                    <DiCoffeescript size={60} color="white" />
+                {flag === "weather" ?
+                    <h1>*Mais dias podem ser vistos na parte inferior da página inicial</h1> : flag === "coffee" ?
+                        <DiCoffeescript size={60} color="white" /> : ''
                 }
             </Header>
             <Modal.Content>
-                {flag ? <WeatherForecast /> : <CoffeePrices />}
+                {flag === "weather" ? <WeatherForecast /> : flag === "coffee" ? <CoffeePrices /> :
+                    flag ? <PartnersText partner={flag} /> : ''
+                }
             </Modal.Content>
 
         </Modal>

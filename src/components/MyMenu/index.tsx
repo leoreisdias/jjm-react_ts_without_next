@@ -110,7 +110,7 @@ const MyMenu: React.FC<MyMenuProps> = ({ flag, children }) => {
 
                         <Menu.Item as='div'>
                             <div className="menuItem">
-                                <ModalExampleContentImage flag={false}>
+                                <ModalExampleContentImage flag="coffee">
                                     <div className="menuItem">
                                         <GiCoffeeBeans size={30} color="#D2691E" />
                                         <h1>Cotação do Café Arábica</h1>
@@ -121,7 +121,7 @@ const MyMenu: React.FC<MyMenuProps> = ({ flag, children }) => {
                         </Menu.Item>
 
                         <Menu.Item as='div'>
-                            <ModalExampleContentImage flag={true}>
+                            <ModalExampleContentImage flag="weather">
                                 <div className="menuItem">
                                     <WiDayCloudy size={40} color="#2BE600" />
                                     <h1>Previsão do Tempo</h1>
