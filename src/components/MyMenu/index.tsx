@@ -57,7 +57,7 @@ const MyMenu: React.FC<MyMenuProps> = ({ flag, children }) => {
                         vertical
                         visible={visible}
                         width='wide'
-                        color="violet"
+                        color="black"
                         compact
 
                     >
@@ -102,7 +102,7 @@ const MyMenu: React.FC<MyMenuProps> = ({ flag, children }) => {
                         <Link to="/deathreports">
                             <Menu.Item as='div'>
                                 <div className="menuItem">
-                                    <GiDeadWood size={30} color="black" />
+                                    <GiDeadWood size={30} color="white" />
                                     <h1>Notas de Falecimento</h1>
                                 </div>
                             </Menu.Item>

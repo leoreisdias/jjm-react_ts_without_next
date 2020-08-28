@@ -10,23 +10,23 @@
 }
 
 #sportBoard{
-    background: linear-gradient(#02aab0   ,#56ab2f);
+    background: linear-gradient(#61c035,#1d0c0c);
 }
 
 #reportsBoard{
-    background: linear-gradient(#bdc3c7    ,#2c3e50);
+    background: linear-gradient(#bdc3c7,#1b2530);
 }
 
 #newsBoard{
-    background: linear-gradient(#7b4397    ,#d32430);
+    background: linear-gradient(#8549a3,#300b0d);
 }
 
 #popBoard{
-    background: linear-gradient(#43cea2    ,#185a9d); 
+    background: linear-gradient(#43cea2,#05121f); 
 }
 
 #optionBoard{
-    background: linear-gradient(#141e30        ,#61045f ); 
+    background: linear-gradient(#141e30,#61045f ); 
 }
 
 .page-header .JJM{
