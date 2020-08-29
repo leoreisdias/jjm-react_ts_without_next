@@ -71,8 +71,7 @@ function Dashboard() {
 
                     <div className="popnewsArea">
                         {Object.keys(popnews).length !== 0 ? popnews.map((popnews: PopNews, index) => {
-                            return index !== 5 ?
-                                <PopNewsItem key={popnews._id} popnews={popnews} /> : ''
+                            return <PopNewsItem key={popnews._id} popnews={popnews} />
                         }) : <PulseLoader color={"#8257E5"} size={60} css={"margin: 20rem auto;"} />}
                     </div>
 

@@ -54,6 +54,7 @@
     flex-direction: column;
     line-height: 3.2rem;
     text-align: justify;
+    margin-right: auto;
 }
 
 #page-news-details .newsdetailmain .news-detail .description blockquote{
@@ -123,6 +124,8 @@
 
 #page-news-details .newsdetailmain .news-detail .video_youtube legend{
     font: 700 2.2rem Archivo;
+    padding: 1rem;
+
 }
 
 #page-news-details .newsdetailmain .news-detail .video_youtube iframe{
@@ -140,6 +143,8 @@
 
 #page-news-details .newsdetailmain .news-detail .video_facebook legend{
     font: 700 2.2rem Archivo;
+    padding: 1rem;
+
 }
 
 #page-news-details .newsdetailmain .news-detail .video_facebook iframe{
@@ -150,6 +155,8 @@
 
 #page-news-details .newsdetailmain .news-detail .legendEditorial{
     font: 700 2.2rem Archivo;
+    padding: 1rem;
+
 }
 
 #page-news-details .newsdetailmain .news-detail .editorial{
@@ -222,6 +229,8 @@
 
 #page-news-details .newsdetailmain .news-detail .legendNewsrelated{
     font: 700 2.2rem Archivo;
+    padding: 1rem;
+
 }
 
 #page-news-details .newsdetailmain .news-detail .relatedNews{
@@ -354,6 +363,8 @@
         flex-direction: column;
         line-height: 3.4rem;
         max-width: 95%;
+        margin-right: auto;
+        margin-left: 10%;
     }
     
     #page-news-details .newsdetailmain .news-detail .description h2{
@@ -650,6 +661,8 @@
         flex-direction: column;
         line-height: 3.8rem;
         max-width: 90%;
+        margin-right: auto;
+        margin-left: 10%;
     }
     
     #page-news-details .newsdetailmain .news-detail .description h2{
@@ -951,6 +964,8 @@
         flex-direction: column;
         line-height: 4.2rem;
         max-width: 90%;
+        margin-right: auto;
+        margin-left: 10%;
     }
     
     #page-news-details .newsdetailmain .news-detail .description h2{
@@ -1253,6 +1268,8 @@
         flex-direction: column;
         line-height: 4.4rem;
         max-width: 80%;
+        margin-right: auto;
+        margin-left: 10%;
     }
     
     #page-news-details .newsdetailmain .news-detail .description h2{

@@ -28,7 +28,7 @@ ul {
     list-style: none;
     margin: 0 0 2rem 0rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     border: 1px solid var(--color-text-complement);
     background: white;
     border-right: 0;
@@ -75,19 +75,19 @@ ul .Link1 li {
 ul .Link1:hover li.ImagePartner_1{
     background-position: 50% 50%;
     background-size: 70px 45px;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 ul .Link1:hover li.ImagePartner_2{
     background-position: 50% 50%;
     background-size: 70px 45px;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 ul .Link1:hover li.ImagePartner_3{
     background-position: 50% 50%;
     background-size: 70px 55px;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .partners-container ul .ImagePartner_4{
@@ -111,35 +111,161 @@ ul .Link1:hover li.ImagePartner_3{
 ul .Link1:hover li.ImagePartner_4{
     background-position: 50% 50%;
     background-size: 80px 60px;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 ul .Link1:hover li.ImagePartner_5{
     background-position: 50% 50%;
     background-size: 80px 60px;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 ul .Link1:hover li.ImagePartner_6{
     background-position: 50% 50%;
     background-size: 80px 60px;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
-@media(min-width:700px) and (max-width:1400px){
+.partners-container ul .ImagePartner_7{
+    background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/Raissa.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 80px 80px;
+}
+
+.partners-container ul .ImagePartner_8{
+    background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/Loterica.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 75px 45px;
+}
+
+ul .Link1:hover li.ImagePartner_7{
+    background-position: 50% 50%;
+    background-size: 80px 80px;
+    transform: scale(1.2);
+}
+
+ul .Link1:hover li.ImagePartner_8{
+    background-position: 50% 50%;
+    background-size: 75px 45px;
+    transform: scale(1.2);
+}
+
+
+@media(min-width:700px){
         .partners-container{    
             margin-top: 5.8rem;
+            width: 90%;
         }
-        
+
         ul .Link1{
             margin:2rem auto;
             padding-bottom: 3rem;
         }
         
         ul .Link1 li {
-            height: 170px;
-            width: 170px;
+            height: 190px;
+            width: 190px;
             margin: 20px 20px 0px 20px;
+        }
+        
+        .partners-container ul .ImagePartner_1{
+            background-position: 50% 50%;
+            background-size: 180px 100px;
+        }
+        
+        .partners-container ul .ImagePartner_2{
+            background-position: 50% 50%;
+            background-size: 170px 100px;
+        }
+        
+        ul .Link1:hover li.ImagePartner_1{
+            background-position: 50% 50%;
+            background-size: 180px 100px;
+        }
+
+        ul .Link1:hover li.ImagePartner_2{
+            background-position: 50% 50%;
+            background-size: 170px 100px;
+        }
+
+        .partners-container ul .ImagePartner_3{
+            background-position: 50% 50%;
+            background-size: 170px 130px;
+        }
+
+        ul .Link1:hover li.ImagePartner_3{
+            background-position: 50% 50%;
+            background-size: 170px 130px;
+        }
+        
+        .partners-container ul .ImagePartner_4{
+            background-position: 50% 50%;
+            background-size: 180px 130px;
+    
+        }
+
+        ul .Link1:hover li.ImagePartner_4{
+            background-position: 50% 50%;
+            background-size: 180px 130px;
+        }
+        
+        .partners-container ul .ImagePartner_5{
+            background-position: 50% 50%;
+            background-size: 180px 130px;
+        }
+
+        ul .Link1:hover li.ImagePartner_5{
+            background-position: 50% 50%;
+            background-size: 180px 130px;
+        }
+        
+        .partners-container ul .ImagePartner_6{
+            background-position: 50% 50%;
+            background-size: 190px 190px;
+        }
+         
+        ul .Link1:hover li.ImagePartner_6{
+            background-position: 50% 50%;
+            background-size: 190px 190px;
+        }
+
+        ul .Link1 li.ImagePartner_7{
+            background-position: 50% 50%;
+            background-size: 180px 180px;
+        }
+
+        ul .Link1:hover li.ImagePartner_7{
+            background-position: 50% 50%;
+            background-size: 180px 180px;
+        }
+
+        ul .Link1 li.ImagePartner_8{
+            background-position: 50% 50%;
+            background-size: 160px 100px;
+        }
+        
+        ul .Link1:hover li.ImagePartner_8{
+            background-position: 50% 50%;
+            background-size: 160px 100px;
+        }
+        
+}
+
+@media(min-width:1366px){
+        .partners-container{    
+            margin-top: 5.8rem;
+            width: 70%;
+        }
+
+        ul .Link1{
+            margin:2rem auto;
+            padding-bottom: 3rem;
+        }
+        
+        ul .Link1 li {
+            height: 250px;
+            width: 250px;
+            margin: auto;
         }
         
         .partners-container ul .ImagePartner_1{
@@ -204,10 +330,30 @@ ul .Link1:hover li.ImagePartner_6{
             background-position: 50% 50%;
             background-size: 180px 150px;
         }
+
+        ul .Link1 li.ImagePartner_7{
+            background-position: 50% 50%;
+            background-size: 180px 180px;
+        }
+
+        ul .Link1 li.ImagePartner_8{
+            background-position: 50% 50%;
+            background-size: 160px 100px;
+        }
+
+        ul .Link1:hover li.ImagePartner_7{
+            background-position: 50% 50%;
+            background-size: 180px 180px;
+        }
+
+        ul .Link1:hover li.ImagePartner_8{
+            background-position: 50% 50%;
+            background-size: 160px 100px;
+        }
         
 }
 
-@media(min-width:1400px){
+@media(min-width:1600px){
     .partners-container{    
         margin: 4rem auto;
         width: 60%;
@@ -219,7 +365,8 @@ ul .Link1:hover li.ImagePartner_6{
     
     ul {
         margin: 0 0 2rem 4rem;
-
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+       
     }
     
     ul .Link1{
@@ -227,84 +374,69 @@ ul .Link1:hover li.ImagePartner_6{
     }
     
     ul .Link1 li {
-        height: 200px;
-        width: 200px;
+        height: 180px;
+        width: 180px;
         margin: 0 auto;
     }
     
     .partners-container ul .ImagePartner_1{
         background-position: 0% 50%;
-        background-size: 200px 110px;
+        background-size: 180px 100px;
     }
     
-    .partners-container ul .ImagePartner_2{
+    ul .Link1:hover li.ImagePartner_1{
         background-position: 50% 50%;
         background-size: 180px 100px;
+    }
+
+    .partners-container ul .ImagePartner_2{
+        background-position: 50% 50%;
+        background-size: 170px 110px;
+    }
+
+    ul .Link1:hover li.ImagePartner_2{
+        background-position: 50% 50%;
+        background-size: 170px 110px;
     }
     
     .partners-container ul .ImagePartner_3{
         background-position: 50% 50%;
-        background-size: 180px 140px;
-    }
-    
-    ul .Link1:hover li.ImagePartner_1{
-        background-position: 0% 50%;
-        background-size: 200px 110px;
-        transform: scale(1.2);
-
-    }
-    
-    ul .Link1:hover li.ImagePartner_2{
-        background-position: 50% 50%;
-        background-size: 180px 100px;
-        transform: scale(1.2);
-
+        background-size: 170px 120px;
     }
     
     ul .Link1:hover li.ImagePartner_3{
         background-position: 50% 50%;
-        background-size: 180px 140px;
-        transform: scale(1.2);
-
+        background-size: 170px 120px;
     }
 
     .partners-container ul .ImagePartner_4{
         background-position: 50% 50%;
-        background-size: 200px 130px;
-
-    }
-    
-    .partners-container ul .ImagePartner_5{
-        background-position: 50% 50%;
-        background-size: 200px 130px;
-
-    }
-    
-    .partners-container ul .ImagePartner_6{
-        background-position: 50% 50%;
-        background-size: 200px 150px;
-
+        background-size: 180px 120px;
     }
     
     ul .Link1:hover li.ImagePartner_4{
         background-position: 50% 50%;
-        background-size: 200px 130px;
-        transform: scale(1.2);
+        background-size: 180px 120px;
+    }
 
+    .partners-container ul .ImagePartner_5{
+        background-position: 50% 50%;
+        background-size: 180px 110px;
     }
     
     ul .Link1:hover li.ImagePartner_5{
         background-position: 50% 50%;
-        background-size: 200px 130px;
-        transform: scale(1.2);
+        background-size: 180px 110px;
+    }
 
+    .partners-container ul .ImagePartner_6{
+        background-position: 50% 50%;
+        background-size: 200px 170px;
     }
     
     ul .Link1:hover li.ImagePartner_6{
         background-position: 50% 50%;
-        background-size: 200px 150px;
-        transform: scale(1.2);
-
+        background-size: 200px 170px;
     }
     
 }

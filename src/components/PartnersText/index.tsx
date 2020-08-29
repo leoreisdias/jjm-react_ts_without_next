@@ -107,6 +107,47 @@ const PartnersText: React.FC<PartnersTextProps> = ({ partner, children }) => {
                             <strong>Telefone: </strong>(35) 3571-5744 <br />
                             <strong>WhatsApp: </strong>(35) 9 9817 5503
                         </> : ''}
+
+                        {partner === "raissa" ? <>
+                            Raissa Laser e Estética atende em Muzambinho, Guaxupé, São João da Boa Vista, Jacutinga, Albertina, Campestre. <br />
+                            Futuramente em Poços de Caldas, Nova Resende e Juruaia <br />
+                            Em Muzambinho tem tratamentos como:
+                            <ul>
+                                <li>Programa Afine-se para emagrecimento | Gordura Localizada</li>
+                                <li>Flacidez | Celulite</li>
+                                <li>Drenagem Linfática | Massagem Modeladora</li>
+                                <li>Hidratação Facial | Redução de Papada</li>
+                                <li>Peeling Amazônico | Limpeza de Pele</li>
+                                <li>Pump (Bumbum na Nuca) | Hidromassagem</li>
+                                <li>Dêtox Corporal | Jato de Plasma</li>
+                            </ul>
+                            E muito mais! <br />
+                            Venha para Raissa Laser e Estética! Invista em você! <br />
+                            <strong>Endereço: </strong> Rua Sete de Setembro, 935, Centro<br />
+                            <strong>Telefone: </strong>(35) 3571-4471 | (35) 9 9914 9278<br />
+
+                        </> : ''}
+
+                        {partner === "loterica" ? <>
+                            Quer mudar de vida? <br />
+                        Venha para Lotérica Sua Casa! A Lotérica da Sorte! A Lotérica dos Bolões Campeões! <br />
+                        A Lotérica Sua Casa já pagou prêmios de mais de 4 milhões da Mega Sena! <br />
+                        Com o melhor atendimento no Alto da Aparecida:
+                        <ul>
+                                <li>Bolões da Sorte</li>
+                                <li>Mega Sena</li>
+                                <li>Time Maria</li>
+                                <li>Dupla Sena</li>
+                                <li>Quina</li>
+                                <li>Dia da Sorte</li>
+                                <li>Loto Fácil</li>
+                            </ul>
+                        E outros! <br />
+                        Compre os Bolões Premiados na sua Lotérica da Sorte no Alto da Aparecida! <br />
+                            <strong>Endereço: </strong> Rua João Pinheiro, 828, Centro<br />
+                            <strong>Telefone: </strong>(35) 3571-1936<br />
+
+                        </> : ''}
                     </p>
                 </div>
                 <a href={
@@ -116,7 +157,9 @@ const PartnersText: React.FC<PartnersTextProps> = ({ partner, children }) => {
                                 partner === "funeraria" ? "https://www.facebook.com/funerariasaodimas" :
                                     partner === "wizard" ? "https://www.facebook.com/WIZARDMUZAMBINHO10" :
                                         partner === "minasmed" ? "https://www.facebook.com/minasmedmuzambinho" :
-                                            'www.jornaljotamaria.com.br'
+                                            partner === "raissa" ? "https://www.facebook.com/raissalaserestetica" :
+                                                partner === "loterica" ? "https://www.facebook.com/lotericasuacasa" :
+                                                    'www.jornaljotamaria.com.br'
                 }
                     target="_blank"
                     rel="noopener noreferrer"

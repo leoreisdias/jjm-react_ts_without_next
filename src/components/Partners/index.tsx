@@ -60,6 +60,24 @@ function Partners() {
                     </span>
                 </ModalExampleContentImage>
 
+                <ModalExampleContentImage flag="raissa">
+                    <span className="Link1">
+
+                        <li className="ImagePartner_7" >
+
+                        </li>
+                    </span>
+                </ModalExampleContentImage>
+
+                <ModalExampleContentImage flag="loterica">
+                    <span className="Link1">
+
+                        <li className="ImagePartner_8" >
+
+                        </li>
+                    </span>
+                </ModalExampleContentImage>
+
 
             </ul>
         </fieldset>

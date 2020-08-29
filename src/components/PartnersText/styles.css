@@ -86,6 +86,28 @@
     padding: 0;
 }
 
+.information .raissa{
+    width: 50rem;
+    height: 10rem;
+    background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/Raissa.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 150px 140px;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.information .loterica{
+    width: 50rem;
+    height: 10rem;
+    background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/Loterica.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 150px 90px;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
 .information .textPartner{
     display: flex;
     align-items: flex-start;
@@ -223,6 +245,28 @@
         background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/minasmed.png') no-repeat;
         background-position: 50% 50%;
         background-size: 220px 200px;
+        margin: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .information .raissa{
+        width: 50rem;
+        height: 15rem;
+        background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/Raissa.png') no-repeat;
+        background-position: 50% 50%;
+        background-size: 230px 240px;
+        margin: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .information .loterica{
+        width: 50rem;
+        height: 15rem;
+        background: url('https://upload-jjm.s3-sa-east-1.amazonaws.com/Parceiros/Loterica.png') no-repeat;
+        background-position: 50% 50%;
+        background-size: 230px 130px;
         margin: 0;
         margin-bottom: 0;
         padding: 0;
