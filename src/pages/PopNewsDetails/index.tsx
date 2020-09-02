@@ -48,10 +48,6 @@ function PopNewsDetails() {
             // await document.getElementsByTagName('head')[0].appendChild(link3);
 
         }
-
-
-
-
         id && loadData()
     }, [id])
 

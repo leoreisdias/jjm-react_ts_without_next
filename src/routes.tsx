@@ -26,7 +26,7 @@ const PrivateRoute: React.FC<any> = ({ component: Component, ...rest }) => (
         isAuthenticated() ? (
             <Component {...props} />
         ) : (
-                <Redirect to={{ pathname: '/dashboard', state: { from: props.location } }} />
+                <Redirect to={{ pathname: '/', state: { from: props.location } }} />
             )
     )} />
 )
@@ -36,20 +36,20 @@ function Routes() {
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={Landing} />
-                <Route path="/login" exact component={Login} />
-                <Route path="/dashboard" exact component={Dashboard} />
-                <Route path="/newspage" component={NewsPage} />
-                <Route path="/deathreports" component={DeathReports} />
-                <Route path="/report-detail/:id" component={ReportDetails} />
+                <PrivateRoute path="/login" exact component={Login} />
+                <PrivateRoute path="/dashboard" exact component={Dashboard} />
+                <PrivateRoute path="/newspage" component={NewsPage} />
+                <PrivateRoute path="/deathreports" component={DeathReports} />
+                <PrivateRoute path="/report-detail/:id" component={ReportDetails} />
                 <PrivateRoute path="/report-post" component={ReportPost} />
                 <PrivateRoute path="/news-post" component={NewPost} />
-                <Route path="/news-detail/:id" component={NewsDetails} />
-                <Route path="/popnews" component={PopNewsPage} />
-                <Route path="/popnews-detail/:id" component={PopNewsDetail} />
+                <PrivateRoute path="/news-detail/:id" component={NewsDetails} />
+                <PrivateRoute path="/popnews" component={PopNewsPage} />
+                <PrivateRoute path="/popnews-detail/:id" component={PopNewsDetail} />
                 <PrivateRoute path="/popnews-post" component={PopNewPost} />
-                <Route path="/sports" component={SportsPage} />
+                <PrivateRoute path="/sports" component={SportsPage} />
                 <PrivateRoute path="/sports-post" component={SportsPost} />
-                <Route path="/sports-detail/:id" component={SportsDetail} />
+                <PrivateRoute path="/sports-detail/:id" component={SportsDetail} />
                 <PrivateRoute path="/options" component={Options} />
             </Switch>
         </BrowserRouter>
