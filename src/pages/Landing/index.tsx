@@ -1,10 +1,10 @@
 import React from 'react';
 
-import logoImg from '../../assets/images/logo.png'
+// import logoImg from '../../assets/images/logo.png'
 import { PacmanLoader } from 'react-spinners';
 
-import studyIcon from '../../assets/images/icons/study.svg';
-import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
+// import studyIcon from '../../assets/images/icons/study.svg';
+// import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
 
 import './styles.css';
 
