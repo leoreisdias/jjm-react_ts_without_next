@@ -1,7 +1,8 @@
 import axios from 'axios'
+require("dotenv").config();
 
 const api = axios.create({
-    baseURL: 'https://jjm-website.herokuapp.com/',
+    baseURL: process.env.BACKEND_URL,
 })
 
 export default api;

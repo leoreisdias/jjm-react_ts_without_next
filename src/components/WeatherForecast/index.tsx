@@ -5,6 +5,7 @@ import './styles.css';
 import { FaArrowUp, FaArrowDown } from 'react-icons/fa';
 import { GiWaterDrop } from 'react-icons/gi';
 import { FiWind } from 'react-icons/fi';
+require("dotenv").config();
 
 interface WeatherProps {
     cid: string;
@@ -29,7 +30,7 @@ function WeatherForecast() {
     const [weather, setWeather] = useState<WeatherProps>();
 
     async function getWeather() {
-        const response = await weatherApi.get('weather?format=json-cors&key=5dd7ec99&woeid=457649')
+        const response = await weatherApi.get(`weather?format=json-cors&key=${process.env.WEATHER_API}`)
         setWeather(response.data.results)
     }
 
